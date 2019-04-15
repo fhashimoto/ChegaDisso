@@ -12,8 +12,8 @@ class Header extends Component {
         <nav>
           <div className="cabecalho container">
             <div id="titulo">chega disso</div>
-            <div id="categoria"></div>
-            <div id="links"></div>
+            <div id="categoria">Categorias</div>
+            <div id="contato">Contato</div>
           </div>
         </nav>
       </header>
@@ -121,51 +121,41 @@ class App extends Component {
         <div>
           <Header/>
           {/* Header */}
-          <div className="d-flex flex-row bd-highlight mb-2">
-          </div>
-
-          <div className="row">
-            <div className="col-xl-12">
-              <form onSubmit={this.handleSubmit}>
-                <div className="form-row d-block">
+              <form onSubmit={this.handleSubmit} className="subscribe">
+                Acesse
+                <div>
                   <input type="hidden" ref="uid" />
-                  <div className="form-group col-md-6">
+                  <div>
                     <label>Nome</label>
                     <input
                       type="text"
                       ref="nome"
-                      className="form-control"
                       placeholder="Nome"
                     />
                   </div>
-                
-                  <div className="form-group col-md-6">
                     <div id="tipo">
-                      <div className="form-check-inline">
-                        <input className="form-check-input" type="radio" name="tipo" value="B2B"/>
-                        <label className="form-check-label">Pessoal</label>
+                      <div>
+                        <input type="radio" name="tipo" value="B2B"/>
+                        <label>Pessoal</label>
                       </div>
-                      <div className="form-check-inline">
-                        <input className="form-check-input" type="radio" name="tipo" value="B2C"/>
-                        <label className="form-check-label">Comercial</label>
+                      <div>
+                        <input type="radio" name="tipo" value="B2C"/>
+                        <label>Comercial</label>
                       </div>
                     </div>
                     <label>E-mail</label>
                     <input
                       type="email"
                       ref="email"
-                      className="form-control"
                       placeholder="E-mail"
                     />
                   </div>
-                </div>
-                <button type="submit" className="btn btn-primary">
+                <button type="submit">
                   Inscreva-se
                 </button>
               </form>
             </div>
-          </div>
-        </div>
+      
       </React.Fragment>
     );
   }
