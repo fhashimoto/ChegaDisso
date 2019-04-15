@@ -3,7 +3,8 @@
     ".read": "true",
     ".write": "true",
     "inscritos": {
-      ".indexOn": ["email","nome","ip","tipo","data"]
+      ".indexOn": ["email","nome","ip","tipo","data"],
+      ".validate": "newData.child('email').isString() && newData.child('email').val().matches(/[a-z0-9!#$%&'*+=?^_`{|}~-]+(?:[.a-z0-9!#$%&'*+=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)+[a-z0-9](?:[.a-z0-9-]*[a-z0-9])?/gi) && newData.child('nome').exists() && newData.child('nome').isString()"
     }
   }
   
