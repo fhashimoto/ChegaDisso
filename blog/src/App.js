@@ -3,6 +3,23 @@ import React, {Component} from "react";
 import $ from 'jquery';
 import Firebase from "firebase";
 import config from "./config";
+import './App.css';
+
+class Header extends Component {
+  render(){
+    return(
+      <header>
+        <nav>
+          <div className="cabecalho">
+            <a className="text-uppercase titulo">chega disso</a>
+            <a className="categoria"></a>
+            <a className="links"></a>
+          </div>
+        </nav>
+      </header>
+    );
+  }
+}
 
 class App extends Component {
   constructor(props) {
@@ -101,16 +118,16 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-12">
-              <h1>Chega Disso</h1>
-            </div>
+        <div>
+          <Header/>
+          {/* Header */}
+          <div className="d-flex flex-row bd-highlight mb-2">
           </div>
+
           <div className="row">
             <div className="col-xl-12">
               <form onSubmit={this.handleSubmit}>
-                <div className="form-row">
+                <div className="form-row d-block">
                   <input type="hidden" ref="uid" />
                   <div className="form-group col-md-6">
                     <label>Nome</label>
