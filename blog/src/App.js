@@ -66,8 +66,20 @@ class App extends Component {
     )
   }
 
+  resetCampo(){
+    this.refs.nome.value = "";
+    this.refs.email.value = "";
+    this.refs.uid.value = "";
+    console.log('Reset');
+  }
+
+  validandoNome(nome){
+
+  }
+
   handleSubmit = event => {
     event.preventDefault();
+    let valido = true;
     let nome = this.refs.nome.value;
     let email = this.refs.email.value;
     let tipo = $('input[name=tipo]:checked',"#tipo").val();
@@ -108,10 +120,10 @@ class App extends Component {
       this.setState({ inscritos });
     }
     // aplicar regra no db.rules, para arrumar a ordem
-
-    this.refs.nome.value = "";
-    this.refs.email.value = "";
-    this.refs.uid.value = "";
+    this.resetCampo();
+    // this.refs.nome.value = "";
+    // this.refs.email.value = "";
+    // this.refs.uid.value = "";
     // Implementar a limpeza do campo de radio
   };
 
