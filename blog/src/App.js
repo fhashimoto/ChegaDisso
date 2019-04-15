@@ -120,7 +120,7 @@ class App extends Component {
     var diffHora = ((parseInt(fuso)/100)+3);
     let data = this.formatoData(new Date(), diffHora);
     let uid = this.refs.uid.value;
-    
+
     //chamada de função para salvar o JSON que será enviado para a DB
     this.salvandoJson(uid, nome, email, tipo, data, ip);
     // aplicar regra no db.rules, para arrumar a ordem
