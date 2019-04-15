@@ -149,7 +149,7 @@ class App extends Component {
                       <label>Comercial</label>
                     </div>
                   </div>
-                <button type="submit">
+                <button type="submit" className="botao">
                   Inscreva-se
                 </button>
               </form>
