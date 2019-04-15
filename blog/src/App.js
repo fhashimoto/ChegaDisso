@@ -10,7 +10,7 @@ class App extends Component {
     Firebase.initializeApp(config);
 
     this.state = {
-      developers: []
+      inscritos: []
     };
   }
 
@@ -43,29 +43,38 @@ class App extends Component {
     });
   }; 
 
+  formatoData(d){
+    return (
+      d.getFullYear()+'-'+('00'+(d.getMonth()+1)).slice(-2)+'-'+('00'+d.getDate()).slice(-2)+' '+('00'+d.getHours()).slice(-2)+':'+('00'+d.getMinutes()).slice(-2)+':'+('00'+d.getSeconds()).slice(-2)
+    )
+  }
+
   handleSubmit = event => {
     console.log("handleSubmit");
     event.preventDefault();
     let nome = this.refs.nome.value;
     let email = this.refs.email.value;
     let tipo = $('input[name=tipo]:checked',"#tipo").val();
-    let data = new Date();
+    let data = this.formatoData(new Date());
     console.log(data);
+    
     let uid = this.refs.uid.value;
 
     if (uid && nome && email) {
-      const { developers } = this.state;
-      const devIndex = developers.findIndex(data => {
+      const { inscritos } = this.state;
+      const insIndex = inscritos.findIndex(data => {
         return data.uid === uid;
       });
-      developers[devIndex].nome = nome;
-      developers[devIndex].email = email;
-      this.setState({ developers });
+      inscritos[insIndex].nome = nome;
+      inscritos[insIndex].email = email;
+      inscritos[insIndex].tipo = tipo;
+      inscritos[insIndex].data = data;
+      this.setState({ inscritos });
     } else if (nome && email) {
       const uid = new Date().getTime().toString();
-      const { developers } = this.state;
-      developers.push({ uid, nome, email });
-      this.setState({ developers });
+      const { inscritos } = this.state;
+      inscritos.push({ uid, nome, email, tipo, data });
+      this.setState({ inscritos });
     }
 
     this.refs.nome.value = "";
