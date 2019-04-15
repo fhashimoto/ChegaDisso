@@ -73,6 +73,28 @@ class App extends Component {
     console.log('Reset');
   }
 
+  salvandoJson(uid, nome, email, tipo, data, ip){
+    if (uid && nome && email && tipo) {
+      const { inscritos } = this.state;
+      // para encontrar alguma inscricao antiga
+      const insIndex = inscritos.findIndex(data => {
+        return data.uid === uid;
+      });
+      inscritos[insIndex].nome = nome;
+      inscritos[insIndex].email = email;
+      inscritos[insIndex].tipo = tipo;
+      inscritos[insIndex].data = data;
+      inscritos[insIndex].ip = ip;
+      this.setState({ inscritos });
+    } //Caso for inscrição nova, segue
+      else if (nome && email && tipo) {
+      const uid = new Date().getTime().toString();
+      const { inscritos } = this.state;
+      inscritos.push({ uid, nome, email, tipo, data, ip });
+      this.setState({ inscritos });
+    }
+  }
+
   validandoNome(nome){
 
   }
@@ -97,33 +119,12 @@ class App extends Component {
     // Cálculo da diferença de fuso com o fuso de brasília
     var diffHora = ((parseInt(fuso)/100)+3);
     let data = this.formatoData(new Date(), diffHora);
-    
     let uid = this.refs.uid.value;
-
-    if (uid && nome && email && tipo) {
-      const { inscritos } = this.state;
-      // para encontrar alguma inscricao antiga
-      const insIndex = inscritos.findIndex(data => {
-        return data.uid === uid;
-      });
-      inscritos[insIndex].nome = nome;
-      inscritos[insIndex].email = email;
-      inscritos[insIndex].tipo = tipo;
-      inscritos[insIndex].data = data;
-      inscritos[insIndex].ip = ip;
-      this.setState({ inscritos });
-    } //Caso for inscrição nova, segue
-      else if (nome && email && tipo) {
-      const uid = new Date().getTime().toString();
-      const { inscritos } = this.state;
-      inscritos.push({ uid, nome, email, tipo, data, ip });
-      this.setState({ inscritos });
-    }
+    
+    //chamada de função para salvar o JSON que será enviado para a DB
+    this.salvandoJson(uid, nome, email, tipo, data, ip);
     // aplicar regra no db.rules, para arrumar a ordem
     this.resetCampo();
-    // this.refs.nome.value = "";
-    // this.refs.email.value = "";
-    // this.refs.uid.value = "";
     // Implementar a limpeza do campo de radio
   };
 
