@@ -3,7 +3,6 @@ import React, {Component} from "react";
 import $ from 'jquery';
 import Firebase from "firebase";
 import config from "./config";
-import ipapi from 'ipapi.co';
 
 class App extends Component {
   constructor(props) {
@@ -44,26 +43,35 @@ class App extends Component {
     });
   }; 
 
-  formatoData(d){
+  formatoData(d, h){
     return (
-      d.getFullYear()+'-'+('00'+(d.getMonth()+1)).slice(-2)+'-'+('00'+d.getDate()).slice(-2)+' '+('00'+d.getHours()).slice(-2)+':'+('00'+d.getMinutes()).slice(-2)+':'+('00'+d.getSeconds()).slice(-2)
+      d.getFullYear()+'-'+('00'+(d.getMonth()+1)).slice(-2)+'-'+('00'+d.getDate()).slice(-2)+' '+('00'+(d.getHours()+h)).slice(-2)+':'+('00'+d.getMinutes()).slice(-2)+':'+('00'+d.getSeconds()).slice(-2)
     )
   }
 
-
   handleSubmit = event => {
-    console.log("handleSubmit");
     event.preventDefault();
     let nome = this.refs.nome.value;
     let email = this.refs.email.value;
     let tipo = $('input[name=tipo]:checked',"#tipo").val();
-    let data = this.formatoData(new Date());
-    let ip = require.connection.remoteAddress;
-    console.log(ip);
+    let ipapi = null;
+    $.ajax({
+      url: 'https://ipapi.co/json/',
+      type: 'get',
+      async: false,
+      success: function(dados){
+        ipapi = dados;
+      }
+    });
+    let fuso = ipapi.utc_offset;
+    let ip = ipapi.ip;
+    // Cálculo da diferença de fuso com o fuso de brasília
+    var diffHora = ((parseInt(fuso)/100)+3);
+    let data = this.formatoData(new Date(), diffHora);
     
     let uid = this.refs.uid.value;
 
-    if (uid && nome && email) {
+    if (uid && nome && email && tipo) {
       const { inscritos } = this.state;
       const insIndex = inscritos.findIndex(data => {
         return data.uid === uid;
@@ -72,11 +80,12 @@ class App extends Component {
       inscritos[insIndex].email = email;
       inscritos[insIndex].tipo = tipo;
       inscritos[insIndex].data = data;
+      inscritos[insIndex].ip = ip;
       this.setState({ inscritos });
-    } else if (nome && email) {
+    } else if (nome && email && tipo) {
       const uid = new Date().getTime().toString();
       const { inscritos } = this.state;
-      inscritos.push({ uid, nome, email, tipo, data });
+      inscritos.push({ uid, nome, email, tipo, data, ip });
       this.setState({ inscritos });
     }
 
