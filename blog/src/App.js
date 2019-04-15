@@ -90,6 +90,7 @@ class App extends Component {
       inscritos.push({ uid, nome, email, tipo, data, ip });
       this.setState({ inscritos });
     }
+    // aplicar regra no db.rules, para arrumar a ordem
 
     this.refs.nome.value = "";
     this.refs.email.value = "";
