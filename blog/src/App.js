@@ -38,13 +38,13 @@ class App extends Component {
 
   componentDidUpdate(prevProps, prevState) {
     console.log("DidUpdate");
+    // Verificar o acrécimos de dados
     if (prevState !== this.state) {
       this.writeUserData();
     }
   }
 
   writeUserData = () => {
-    console.log("writeUserData");
     Firebase.database()
       .ref("/")
       .set(this.state);
@@ -74,9 +74,9 @@ class App extends Component {
   }
 
   salvandoJson(uid, nome, email, tipo, data, ip){
+    // para encontrar alguma inscricao antiga
     if (uid && nome && email && tipo) {
       const { inscritos } = this.state;
-      // para encontrar alguma inscricao antiga
       const insIndex = inscritos.findIndex(data => {
         return data.uid === uid;
       });
@@ -95,13 +95,8 @@ class App extends Component {
     }
   }
 
-  validandoNome(nome){
-
-  }
-
   handleSubmit = event => {
     event.preventDefault();
-    let valido = true;
     let nome = this.refs.nome.value;
     let email = this.refs.email.value;
     let tipo = $('input[name=tipo]:checked',"#tipo").val();
@@ -120,6 +115,7 @@ class App extends Component {
     var diffHora = ((parseInt(fuso)/100)+3);
     let data = this.formatoData(new Date(), diffHora);
     let uid = this.refs.uid.value;
+    console.log(uid);
 
     //chamada de função para salvar o JSON que será enviado para a DB
     this.salvandoJson(uid, nome, email, tipo, data, ip);

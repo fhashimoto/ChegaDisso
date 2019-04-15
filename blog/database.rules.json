@@ -1,9 +1,6 @@
 {
   "rules": {
-    "$uid": {
-      ".read": "false",
-      ".write": "true",
-      ".validate": true
-    }
+    ".read": "true",
+    ".write": "true"
   }
 }
