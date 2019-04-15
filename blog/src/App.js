@@ -10,10 +10,10 @@ class Header extends Component {
     return(
       <header>
         <nav>
-          <div className="cabecalho">
-            <a className="text-uppercase titulo">chega disso</a>
-            <a className="categoria"></a>
-            <a className="links"></a>
+          <div className="cabecalho container">
+            <a id="titulo">chega disso</a>
+            <a id="categoria"></a>
+            <a id="links"></a>
           </div>
         </nav>
       </header>

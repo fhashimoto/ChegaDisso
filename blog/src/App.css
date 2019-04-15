@@ -11,12 +11,15 @@ header {
   background-color: white;
   opacity: 0.75;
   width: 100%;
-  height: 2em;
+  height: 30px;
   vertical-align: middle;
 }
 
-.cabecalho.titulo {
-  color: #333fff;
+#titulo {
+  font-size: 15px;
+  color: #13477B;
+  vertical-align: middle;
+  padding: 0 80px;
 }
 
 /* Para casos de smartphones */
@@ -24,10 +27,24 @@ header {
   header {
     height: 300px;
   }
+  .cabecalho{
+    height: 20px;
+  }
+  #titulo {
+    font-size: 10px;
+    padding: 0 10px;
+  }
 
 }
 @media only screen and (min-width: 990px){
   header {
     height: 700px;
+  }
+  .cabecalho{
+    height: 30px;
+  }
+  #titulo {
+    font-size: 10px;
+    padding: 0 10px;
   }
 }
