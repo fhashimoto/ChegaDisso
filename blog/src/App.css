@@ -14,6 +14,7 @@ header {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center; 
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
 }
 
 .cabecalho.container {
@@ -42,11 +43,18 @@ header {
   padding: 10px 0px 10px 15px;
 }
 
-.subscribe {
-  display: block;
+form{
+  padding: 15px;
+  width: 200px;
+  border: 1px solid green ;
 }
-#tipo {
-  display: inline;
+#tipo{
+  display: flex;
+  margin-bottom: 5px;
+}
+.campoform{
+  margin: 2px;
+  padding: 7px;
 }
 
 /* Para casos de smartphones */

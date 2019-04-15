@@ -122,33 +122,32 @@ class App extends Component {
           <Header/>
           {/* Header */}
               <form onSubmit={this.handleSubmit} className="subscribe">
-                Acesse
-                <div>
+                
                   <input type="hidden" ref="uid" />
                   <div>
-                    <label>Nome</label>
                     <input
                       type="text"
                       ref="nome"
-                      placeholder="Nome"
+                      placeholder="Nome*"
+                      className="campoform"
                     />
                   </div>
-                    <div id="tipo">
-                      <div>
-                        <input type="radio" name="tipo" value="B2B"/>
-                        <label>Pessoal</label>
-                      </div>
-                      <div>
-                        <input type="radio" name="tipo" value="B2C"/>
-                        <label>Comercial</label>
-                      </div>
+                  
+                  <input
+                    type="email"
+                    ref="email"
+                    placeholder="E-mail*"
+                    className="campoform"
+                  />
+                  <div id="tipo">
+                    <div>
+                      <input type="radio" name="tipo" value="B2B"/>
+                      <label>Pessoal</label>
                     </div>
-                    <label>E-mail</label>
-                    <input
-                      type="email"
-                      ref="email"
-                      placeholder="E-mail"
-                    />
+                    <div>
+                      <input type="radio" name="tipo" value="B2C"/>
+                      <label>Comercial</label>
+                    </div>
                   </div>
                 <button type="submit">
                   Inscreva-se
