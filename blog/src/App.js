@@ -3,6 +3,7 @@ import React, {Component} from "react";
 import $ from 'jquery';
 import Firebase from "firebase";
 import config from "./config";
+import ipapi from 'ipapi.co';
 
 class App extends Component {
   constructor(props) {
@@ -49,20 +50,6 @@ class App extends Component {
     )
   }
 
-  localizadorIp(){
-    $.getJSON('https://ipapi.co/json/', function(dado){
-      console.log(dado.utc_offset);
-      console.log(dado.ip)
-    }).done( function(dado) {
-      return dado.ip
-    })
-  }
-
-  localizadorFuso(){
-    $.getJSON('https://ipapi.co/utc_offset/', function(dado){
-      console.log(dado);
-    })
-  }
 
   handleSubmit = event => {
     console.log("handleSubmit");
@@ -71,7 +58,8 @@ class App extends Component {
     let email = this.refs.email.value;
     let tipo = $('input[name=tipo]:checked',"#tipo").val();
     let data = this.formatoData(new Date());
-    console.log(this.localizadorIp());
+    let ip = require.connection.remoteAddress;
+    console.log(ip);
     
     let uid = this.refs.uid.value;
 
