@@ -1,25 +1,35 @@
+html, body{
+  width:100%; 
+  height:100%;
+  padding:0px;
+  margin:0px;
+}
+
 header {
   background-image: url("https://i.imgur.com/WYjeQ9x.jpg");
   width: 100%;
-  height: 500px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center; 
 }
 
 .cabecalho {
+  font-size: 15px;
   background-color: white;
   opacity: 0.75;
   width: 100%;
   height: 30px;
-  vertical-align: middle;
+  text-transform: uppercase;
 }
 
 #titulo {
-  font-size: 15px;
+  display: inline;
   color: #13477B;
-  vertical-align: middle;
-  padding: 0 80px;
+  padding: 0 20px;
+  text-align: center;
 }
 
 /* Para casos de smartphones */
@@ -29,22 +39,21 @@ header {
   }
   .cabecalho{
     height: 20px;
+    font-size: 11px;
   }
   #titulo {
-    font-size: 10px;
-    padding: 0 10px;
+    padding: 25px;
   }
 
 }
-@media only screen and (min-width: 990px){
+@media only screen and (min-width: 600px) and (max-width: 990px){
   header {
-    height: 700px;
+    height: 500px;
   }
   .cabecalho{
     height: 30px;
   }
   #titulo {
-    font-size: 10px;
-    padding: 0 10px;
+    padding: 0 20px;
   }
 }

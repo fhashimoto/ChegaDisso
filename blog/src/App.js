@@ -11,9 +11,9 @@ class Header extends Component {
       <header>
         <nav>
           <div className="cabecalho container">
-            <a id="titulo">chega disso</a>
-            <a id="categoria"></a>
-            <a id="links"></a>
+            <div id="titulo">chega disso</div>
+            <div id="categoria"></div>
+            <div id="links"></div>
           </div>
         </nav>
       </header>
