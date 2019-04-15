@@ -73,6 +73,7 @@ class App extends Component {
 
     if (uid && nome && email && tipo) {
       const { inscritos } = this.state;
+      // para encontrar alguma inscricao antiga
       const insIndex = inscritos.findIndex(data => {
         return data.uid === uid;
       });
@@ -82,7 +83,8 @@ class App extends Component {
       inscritos[insIndex].data = data;
       inscritos[insIndex].ip = ip;
       this.setState({ inscritos });
-    } else if (nome && email && tipo) {
+    } //Caso for inscrição nova, segue
+      else if (nome && email && tipo) {
       const uid = new Date().getTime().toString();
       const { inscritos } = this.state;
       inscritos.push({ uid, nome, email, tipo, data, ip });

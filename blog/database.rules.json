@@ -1,6 +1,9 @@
 {
   "rules": {
     ".read": "true",
-    ".write": "true"
+    ".write": "true",
+    "inscritos":{
+      ".indexOn": ["email","nome", "ip", "tipo", "data"]
+    }
   }
 }
