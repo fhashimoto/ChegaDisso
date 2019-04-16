@@ -6,7 +6,7 @@ class Header extends Component {
     return(
         <header>
             <nav>
-                <Link to="/"><button id="botao_menu">VOLTAR MENU</button></Link>
+                <Link to="/"><button id="botao_menu"></button></Link>
                 <div className="cabecalho container">
                     <Link to="/">
                         <div id="titulo">chega disso</div>
