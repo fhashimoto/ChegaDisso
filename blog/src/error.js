@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 
-class Obrigado extends Component{
+class Error extends Component{
     render(){
         return(
             <div className="agradecimento">
-                Obrigado pela inscrição
+                Não existe esta página ainda
             </div>
         )
     }
 }
 
-export default Obrigado;
+export default Error;
