@@ -4,6 +4,7 @@ import Header from './header';
 import Form from './form';
 import Footer from './footer';
 import Menu from './menu';
+import Resume from "./resume";
 
 class Home extends Component{
     render(){
@@ -12,6 +13,7 @@ class Home extends Component{
                 <Header/>
                 <Form/>
                 <Menu/>
+                <Resume/>
                 <Footer/>
             </div>
         )
