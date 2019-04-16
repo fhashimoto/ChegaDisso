@@ -16,7 +16,7 @@ class Texto4 extends Component {
                 <p className="subtitle">Experiência do cliente é a chave de sucesso para qualquer empresa que quer prosperar nos próximos anos</p>
             </div>
             <div className="corpo_texto">
-                <img src="https://i.imgur.com/XjHo8u7.png" className="foto_texto" alt=""/>
+                <img src="https://i.imgur.com/G1DnDLo.png" className="foto_texto" alt=""/>
                 <p className="conteudo">Quem nunca comprou uma roupa porque a lojista ficou falando que você estava linda(o) e acabou se arrependendo da compra? Hoje não há espaço para esse tipo de comércio. O valor da experiência é rei, seja nas lojas física ou e-commerce, seja no Brasil ou na Europa. Um estudo desenvolvido pela consultoria PwC, analisou a opinião de milhares de consumidores em todo o mundo para entender o que é importante para eles. Confira os principais aprendizados que você pode levar para a sua empresa.</p>
                 <h2>Marcas que oferecem uma experiência melhor podem cobrar mais por isso</h2>
                 <p className="conteudo">Caso a experiência de compra seja satisfatória, o brasileiro aceita pagar cerca de 20% a mais por ingressos para eventos esportivos. Já no caso dos restaurantes, essa diferença de preço é de cerca de 17% e por uma assinatura de TV a cabo chega a 15%. Os consumidores também estão dispostos a pagar mais por serviços personalizados, como entrega mais rápida ou no mesmo dia. Por isso, a dica de ouro para as pequenas e médias empresas é pensar em como personalizar seu serviço ou como melhorar a experiência do cliente para fidelizá-lo.</p>

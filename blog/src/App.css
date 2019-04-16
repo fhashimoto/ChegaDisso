@@ -212,6 +212,7 @@ p.subtitle{
 
 .foto_texto{
   display: block;
+  width: 550px;
   margin-left: auto;
   margin-right: auto;
   background-color: gray;
@@ -223,6 +224,12 @@ p.subtitle{
   margin-right: 300px;
   margin-left: 180px;
   margin-bottom: 200px;
+}
+
+#botao_menu{
+  position: fixed;
+  right: 50px;
+  bottom: 120px;
 }
 
 /* Para casos de smartphones */

@@ -16,7 +16,7 @@ class Texto2 extends Component {
                     <p className="subtitle">Conheça a história da fundadora do Coffee Lab, cafeteria premiada e escola de baristas</p>
                 </div>
                 <div className="corpo_texto">
-                    <img src="https://i.imgur.com/XjHo8u7.png" className="foto_texto" alt=""/>
+                    <img src="https://i.imgur.com/YrqQdbf.jpg" className="foto_texto" alt=""/>
                     <p className="conteudo">Conheça a história da fundadora do Coffee Lab, cafeteria premiada e escola de baristas</p>
                     <p className="conteudo">Conheça agora a história da Isabela Raposeiras, fundadora do Coffee Lab - uma cafeteria e escola de baristas premiada e reconhecida internacionalmente. Aqui você encontra algumas dicas que ela deixou sobre autoconhecimento, inovação e disciplina.</p>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/tHae9aRaFhw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="video_1"></iframe>

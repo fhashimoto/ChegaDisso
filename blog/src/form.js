@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
+
 import $ from 'jquery';
 import Firebase from "firebase";
 import config from "./config";
@@ -22,7 +24,7 @@ class Form extends Component {
         console.log("DidUpdate");
         // Verificar o acrécimos de dados
         if (prevState !== this.state) {
-          this.writeUserData();
+          this.writeUserData()
         }
       }
     
@@ -131,9 +133,11 @@ class Form extends Component {
                 <label>Comercial</label>
               </div>
             </div>
-            <button type="submit" className="botao">
-              Inscreva-se
-            </button>
+            <Link to="/obrigado">
+              <button type="submit" className="botao">
+                Inscreva-se
+              </button>
+            </Link>
           </form>
         )
     }
