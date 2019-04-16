@@ -12,7 +12,7 @@ class Home extends Component{
             <div>
                 <Header/>
                 <Form/>
-                <Menu/>
+                {/* <Menu/> */}
                 <Resume/>
                 <Footer/>
             </div>

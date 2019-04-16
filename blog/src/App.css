@@ -157,19 +157,19 @@ form{
   position: absolute;
   top: 720px;
   left: 130px;
-  width: 500px;
+  width: 70%;
   margin-bottom: 200px;
 }
 
 .container.resume {
   
-  border: solid black 2px;
+  /* border: solid lightgray .5px; */
   display: flex;
   margin-bottom: 20px;
 }
 
 .resume1 {
-  width:350px;
+  width:auto;
   padding: 0 0 0 10px;
   text-align: left;
 }
@@ -179,11 +179,26 @@ form{
 }
 
 .container.resume .foto {
-  width: 150px;
+  min-width: 150px;
   height: 150px;
   margin: 10px 0 0 10px;
   background-color: grey;
   border: solid black 2px;
+}
+
+.titulo_texto h1{
+  margin-bottom: 0;
+}
+p.subtitle{
+  margin-top: 0;
+}
+
+.corpo_texto {
+  text-align: justify;
+
+  margin-right: 300px;
+  margin-left: 180px;
+  margin-bottom: 200px;
 }
 
 /* Para casos de smartphones */
