@@ -83,9 +83,12 @@ class Form extends Component {
     handleSubmit = event => {
       console.log("HandleSubmit");
       event.preventDefault();
-      let nome = this.refs.nome.value;
-      let email = this.refs.email.value;
-      let tipo = $('input[name=tipo]:checked',"#tipo").val();
+      let tipo = 0,
+          nome = 0,
+          email = 0;
+        nome = this.refs.nome.value;
+        email = this.refs.email.value;
+        tipo = $('input[name=tipo]:checked',"#tipo").val();
       let ipapi = null;
       $.ajax({
         url: 'https://ipapi.co/json/',
@@ -107,7 +110,19 @@ class Form extends Component {
       this.salvandoJson(uid, nome, email, tipo, data, ip);
       // aplicar regra no db.rules, para arrumar a ordem
       this.resetCampo();
-      alert('Inscrição realizada com sucesso!');
+      if(tipo=='B2B' || tipo=='B2C'){
+        if(nome!=0 && email!=0){
+          alert('Inscrição realizada com sucesso!');
+        }
+      }else{
+        alert('Favor escolher o tipo de e-mail');
+      }
+      if (nome==0){
+        alert('Favor adicionar um nome');
+      }
+      if (email==0){
+        alert('Favor adicionar um e-mail');
+      }
       // Implementar a limpeza do campo de radio
     };
     render(){
