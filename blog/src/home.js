@@ -3,6 +3,7 @@ import React, {Component} from "react";
 import Header from './header';
 import Form from './form';
 import Footer from './footer';
+import Menu from './menu';
 
 class Home extends Component{
     render(){
@@ -10,6 +11,7 @@ class Home extends Component{
             <div>
                 <Header/>
                 <Form/>
+                <Menu/>
                 <Footer/>
             </div>
         )
