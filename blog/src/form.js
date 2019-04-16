@@ -107,6 +107,7 @@ class Form extends Component {
       this.salvandoJson(uid, nome, email, tipo, data, ip);
       // aplicar regra no db.rules, para arrumar a ordem
       this.resetCampo();
+      alert('Inscrição realizada com sucesso!');
       // Implementar a limpeza do campo de radio
     };
     render(){
