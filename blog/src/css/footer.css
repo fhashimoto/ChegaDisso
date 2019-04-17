@@ -3,7 +3,7 @@
     width: 100%;
     height: 100px;
     text-align: center;
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
 }
