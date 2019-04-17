@@ -15,7 +15,7 @@ export class Texto1 extends Component{
                     <p className="subtitle">Conheça o blog que vai compartilhar todas as dicas para melhorar a gestão da sua PME</p>
                 </div>
                 <div className="corpo_texto">
-                    <img src="https://i.imgur.com/zLsaQqA.png" className="foto_texto" alt=""/>
+                    <img src="https://i.imgur.com/ozun5qK.png" className="foto_texto" alt=""/>
                     <p className="conteudo">Chega de post it para organizar as contas que você pagou no final do mês, de achismos, de esperar o consumidor bater na sua porta, de torcer por mudanças no cenário econômico do país. Muitos podem pensar: “eu não preciso disso, minha empresa está muito bem e adoro meu próprio método para lembrar de pagar as contas”. Concordamos que cada negócio tem uma particularidade e pode exigir uma ferramenta diferente, mas a gestão e a tecnologia precisam permear todas elas.</p>
                     <p className="conteudo">Empresas que não tem gestão e tecnologia para ajudar com suas finanças, tem grandes chances de entrar em um índice brasileiro bem alarmante. Segundo a pesquisa Demografia das Empresas, divulgada pelo Instituto Brasileiro de Geografia e Estatística (IBGE) cinco anos após as empresas serem criadas, pouco mais de 60% delas fecharam as portas. O estudo ainda aponta que das 733,6 mil empresas que nasceram em 2010, apenas 277,2 mil sobreviveram até 2015. </p>
                     <h2>O que faz uma pequena e média empresa (PME) sobreviver?</h2>
@@ -40,7 +40,7 @@ export class Texto2 extends Component{
                     <p className="subtitle">Conheça a história da fundadora do Coffee Lab, cafeteria premiada e escola de baristas</p>
                 </div>
                 <div className="corpo_texto">
-                    <img src="https://i.imgur.com/YrqQdbf.jpg" className="foto_texto" alt=""/>
+                    <img src="https://i.imgur.com/XAdjluv.jpg" className="foto_texto" alt=""/>
                     <p className="conteudo">Conheça a história da fundadora do Coffee Lab, cafeteria premiada e escola de baristas</p>
                     <p className="conteudo">Conheça agora a história da Isabela Raposeiras, fundadora do Coffee Lab - uma cafeteria e escola de baristas premiada e reconhecida internacionalmente. Aqui você encontra algumas dicas que ela deixou sobre autoconhecimento, inovação e disciplina.</p>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/tHae9aRaFhw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="video_1"></iframe>
@@ -65,7 +65,7 @@ export class Texto3 extends Component{
                     <p className="subtitle">Lembre-se que você tem até o dia 31 de maio para entregar</p>
                 </div>
                 <div className="corpo_texto">
-                    <img src="https://i.imgur.com/xAMrqWe.png" className="foto_texto" alt=""/>
+                    <img src="https://i.imgur.com/39w5Ali.jpg" className="foto_texto" alt=""/>
                     <p className="conteudo">Se você é Microempreendedor Individual (MEI), ou seja, fatura até R$ 81 mil por ano, você tem compromisso anual com a Declaração Anual do Simples Nacional (DASN) e deixar para a última hora a entrega pode ser um grande problema. Entenda porquê.</p>
                     <p className="conteudo">Acreditamos que você viu bastante sobre as vantagens de se formalizar como MEI e que o principal compromisso é o pagamento mensal da sua contribuição por meio da guia DAS. É justamente nesse momento que muitos acabam se equivocando e esquecendo da declaração anual do MEI.</p>
                     <p className="conteudo">A DASN é a obrigação anual precisa ser entregue no início do ano por todos dos empreendedores. Como estamos em 2019, devem ser informados os dados de receitas brutas obtidas pela empresa do MEI entre 1 de janeiro de 2018 e 31 de dezembro de 2018. Esse processo é totalmente gratuito e pode ser feito sem a ajuda de um contador, se você preferir. No entanto, a presença desse profissional sempre ajude a ter atenção a pontos importantes.</p>
@@ -96,7 +96,7 @@ export class Texto4 extends Component{
                     <p className="subtitle">Experiência do cliente é a chave de sucesso para qualquer empresa que quer prosperar nos próximos anos</p>
                 </div>
                 <div className="corpo_texto">
-                    <img src="https://i.imgur.com/G1DnDLo.png" className="foto_texto" alt=""/>
+                    <img src="https://i.imgur.com/wf2fN2e.jpg" className="foto_texto" alt=""/>
                     <p className="conteudo">Quem nunca comprou uma roupa porque a lojista ficou falando que você estava linda(o) e acabou se arrependendo da compra? Hoje não há espaço para esse tipo de comércio. O valor da experiência é rei, seja nas lojas física ou e-commerce, seja no Brasil ou na Europa. Um estudo desenvolvido pela consultoria PwC, analisou a opinião de milhares de consumidores em todo o mundo para entender o que é importante para eles. Confira os principais aprendizados que você pode levar para a sua empresa.</p>
                     <h2>Marcas que oferecem uma experiência melhor podem cobrar mais por isso</h2>
                     <p className="conteudo">Caso a experiência de compra seja satisfatória, o brasileiro aceita pagar cerca de 20% a mais por ingressos para eventos esportivos. Já no caso dos restaurantes, essa diferença de preço é de cerca de 17% e por uma assinatura de TV a cabo chega a 15%. Os consumidores também estão dispostos a pagar mais por serviços personalizados, como entrega mais rápida ou no mesmo dia. Por isso, a dica de ouro para as pequenas e médias empresas é pensar em como personalizar seu serviço ou como melhorar a experiência do cliente para fidelizá-lo.</p>
