@@ -1,0 +1,25 @@
+.agradecimento{
+    font-size: 3em;
+    color: #234562;
+    font-weight: bolder;
+    padding: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.botaoMenu{
+    display: flex; 
+    justify-content: center;
+}
+
+.botaoMenu button{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 100px;
+    background-color: #f6b982;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #234562;
+}

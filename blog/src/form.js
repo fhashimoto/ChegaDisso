@@ -112,7 +112,7 @@ class Form extends Component {
       this.resetCampo();
       if(tipo=='B2B' || tipo=='B2C'){
         if(nome!=0 && email!=0){
-          alert('Inscrição realizada com sucesso!');
+          window.location = '/obrigado';
         }
       }else{
         alert('Favor escolher o tipo de e-mail');
