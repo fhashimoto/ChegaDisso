@@ -1,46 +1,44 @@
-header {
-    /* background-image: url("https://i.imgur.com/UpgzdD0.jpg"); */
-    margin-left: auto;
-    margin-right: auto;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-}
-
+/* Banner principal */
 #imgPrinc{
+  position: relative;
+  z-index: -1;
   max-width: 100%;
   width: auto;
   height: auto;
 }
+/* Barra transparente do cabecalho */
+.cabecalho{
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #234562;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+}
+/* Chega disso Título */
+#titulo{
+  font-size: 20pt;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#titulo:hover{
+  color: #f8b152;
+}
+/* Sobre e Contato */
+.link{
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+}
+#sobre{
+  padding-right: 20px;
+}
 
-#titulo {
-  position: absolute;
-  right: 75%;
-  top:10px;
-}
-#categoria{
-  position: absolute;
-  font-size: 12px;
-  font-weight: bolder;
-  top: 12px;
-  right: 50%;
-}
-#contato{
-  position: absolute;
-  font-size: 12px;
-  font-weight: bolder;
-  top: 12px;
-  right: 40%;
-}
-
-.cabecalho.container {
-    font-size: 20px;
-    font-weight: bold;
-    vertical-align: middle;
-    background-color: white;
-    opacity: 0.75;
-    width: 100%;
-    height: 40px;
-    text-transform: uppercase;
-    color: #13477B;
+/* Ícones */
+.icones{
+  display: flex;
+  align-items: center;
 }

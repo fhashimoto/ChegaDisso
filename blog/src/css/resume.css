@@ -1,4 +1,5 @@
 .corpo_resumo{
+    position: relative;
     display: block;
     width: 70%;
     margin-bottom: 200px;

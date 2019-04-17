@@ -5,16 +5,21 @@ class Header extends Component {
     render(){
     return(
         <div>
-            <header>
-                <div className="cabecalho container">
-                    <Link to="/" className="linkColor">
-                        <div id="titulo">chega disso</div>
-                    </Link>
-                    <div id="categoria">Categorias</div>
+            <img src="https://i.imgur.com/UpgzdD0.jpg" id="imgPrinc" alt=""/>
+            <div className="cabecalho">
+                <Link to="/" className="linkColor">
+                    <div id="titulo">chega disso</div>
+                </Link>
+                <div className="link">
+                    <div id="sobre">Sobre</div>
                     <div id="contato">Contato</div>
                 </div>
-            </header>
-            <img src="https://i.imgur.com/UpgzdD0.jpg" id="imgPrinc" alt=""/>
+                <div className="icones">
+                    <img src="https://i.imgur.com/riJqSMK.png" className="icon" alt=""/>
+                    <img src="https://i.imgur.com/gKCIAmf.png" className="icon" alt=""/>
+                    <img src="https://i.imgur.com/cUd1gJU.png" className="icon" alt=""/>
+                </div>
+            </div>
         </div>
     );
     }
