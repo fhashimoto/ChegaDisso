@@ -10,7 +10,7 @@ export class Texto1 extends Component{
                 <Header/>
                 <Form/>
                 <div className="titulo_texto">
-                    <div id="quadrado_texto"></div>
+                    {/* <div id="quadrado_texto"></div> */}
                     <h1>Chega disso que impede a sua empresa de crescer</h1>
                     <p className="subtitle">Conheça o blog que vai compartilhar todas as dicas para melhorar a gestão da sua PME</p>
                 </div>
@@ -35,7 +35,7 @@ export class Texto2 extends Component{
                 <Header/>
                 <Form/>
                 <div className="titulo_texto">
-                    <div id="quadrado_texto"></div>
+                    {/* <div id="quadrado_texto"></div> */}
                     <h1>Mulher empreendedora, inspire-se!</h1>
                     <p className="subtitle">Conheça a história da fundadora do Coffee Lab, cafeteria premiada e escola de baristas</p>
                 </div>
@@ -60,7 +60,7 @@ export class Texto3 extends Component{
                 <Header/>
                 <Form/>
                 <div className="titulo_texto">
-                    <div id="quadrado_texto"></div>
+                    {/* <div id="quadrado_texto"></div> */}
                     <h1>Declaração Anual do MEI: o que você precisa saber</h1>
                     <p className="subtitle">Lembre-se que você tem até o dia 31 de maio para entregar</p>
                 </div>
@@ -91,7 +91,7 @@ export class Texto4 extends Component{
                 <Header/>
                 <Form/>
                 <div className="titulo_texto">
-                    <div id="quadrado_texto"></div>
+                    {/* <div id="quadrado_texto"></div> */}
                     <h1>Quando o lema é: não empurra!</h1>
                     <p className="subtitle">Experiência do cliente é a chave de sucesso para qualquer empresa que quer prosperar nos próximos anos</p>
                 </div>

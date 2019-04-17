@@ -3,7 +3,7 @@
     display: block;
     width: 80%;
     margin-bottom: 200px;
-    margin-top: 5px;
+    margin-top: 25px;
 }
   
 .container.resume {
@@ -41,10 +41,10 @@
     }
 
     .resume1 h1{
-        font-size: 1em;
+        font-size: 1.25em;
     }
     .resume1 p{
-        font-size: .6em;
+        font-size: .75em;
     }
 
     .foto{

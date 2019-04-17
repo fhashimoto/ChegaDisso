@@ -1,7 +1,7 @@
 .titulo_texto{
     text-align: left;
-    margin-right: 300px;
-    margin-left: 180px;
+    margin-right: 30%;
+    margin-left: 17%;
     color: #014363;
 }
   
@@ -35,8 +35,25 @@ p.subtitle{
   
 .corpo_texto {
     text-align: justify;
-    margin-right: 300px;
-    margin-left: 180px;
+    margin-right: 30%;
+    margin-left: 17%;
     margin-bottom: 200px;
 }
 
+@media only screen and (max-width: 500px) {
+    .titulo_texto h1{
+        font-size: 1.25em;
+    }
+    p.subtitle, p.conteudo, .corpo_texto ul{
+        font-size: .75em;
+    }
+
+    .corpo_texto h2{
+        font-size: 1em;
+    }
+
+    .foto_texto{
+        width: 180px;
+        height: 95px;
+    }
+}

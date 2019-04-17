@@ -36,15 +36,15 @@ form{
 @media only screen and (max-width: 500px) {
     form{
         padding: 7.5px 0 7.5px 5px;
-        width: 100px;
-        top: 25px;
+        width: 140px;
+        top: 42px;
         right: 15px;
     }
 
     .campoform{
-        width: 70px;
-        height: 0;
-        font-size: .5em;
+        width: 100px;
+        height: 10px;
+        font-size: .7em;
     }
 
     #tipo{
@@ -54,16 +54,16 @@ form{
     #tipo .campo{
         display: flex;
         align-items: center;
-        font-size: 7px;
+        font-size: .75em;
     }
     #tipo input{
-        width: 8px;
+        width: 10px;
     }
 
     .botao{
-        width: 60px;
-        padding: 5px 0 5px 0;
-        font-size: 7px;
+        width: 100px;
+        padding: 7px 0 7px 0;
+        font-size: .75em;
     }
 
 }
