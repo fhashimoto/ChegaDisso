@@ -42,3 +42,27 @@
   display: flex;
   align-items: center;
 }
+.icones a{
+  height: 42px;
+  width: 42px;
+}
+
+@media only screen and (max-width: 500px) {
+  .cabecalho{
+    height: 20px;
+  }
+  #titulo{
+    font-size: 6pt;
+  }
+  .link{
+    font-size: 3pt;
+  }
+  .icon{
+    height: 15px;
+    width: 15px;    
+  }
+  .icones a{
+    height: 15px;
+    width: 15px;
+  }
+}
