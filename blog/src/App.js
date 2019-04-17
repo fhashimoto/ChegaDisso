@@ -12,6 +12,7 @@ import Home from './home';
 import Agradecimento from './Agradecimento';
 import Error from './error';
 import {Texto1, Texto2, Texto3, Texto4} from './Content/textos';
+import { Sobre } from "./Content/sobre";
 
 class App extends Component {
 
@@ -26,6 +27,7 @@ class App extends Component {
             <Route path="/mulher_empreendedora" component={Texto2}/>
             <Route path="/declaracao_mei" component={Texto3}/>
             <Route path="/lema_e" component={Texto4}/>
+            <Route path="/about" component={Sobre}/>
             <Route component={Error}/>
           </Switch>
         </div>
