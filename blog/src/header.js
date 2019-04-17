@@ -19,7 +19,7 @@ class Header extends Component {
                 <div className="icones">
                     <a href="https://www.facebook.com/blog.chegadisso/"><img src="https://i.imgur.com/riJqSMK.png" className="icon" alt=""/></a>
                     <a href="https://www.instagram.com/chega.disso/"><img src="https://i.imgur.com/gKCIAmf.png" className="icon" alt=""/></a>
-                    <img src="https://i.imgur.com/cUd1gJU.png" className="icon" alt=""/>
+                    <a href="https://www.linkedin.com/company/14051668"><img src="https://i.imgur.com/cUd1gJU.png" className="icon" alt=""/></a>
                 </div>
             </div>
         </div>
