@@ -1,12 +1,12 @@
 import React, {Component} from "react";
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
-import './App.css';
-import './header.css';
-import './form.css';
-import './footer.css';
-import './resume.css';
-import './textos.css';
+import './css/App.css';
+import './css/header.css';
+import './css/form.css';
+import './css/footer.css';
+import './css/resume.css';
+import './css/textos.css';
 import Home from './home';
 import Agradecimento from './Agradecimento';
 import Error from './error';
