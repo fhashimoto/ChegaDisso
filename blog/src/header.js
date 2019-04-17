@@ -8,7 +8,7 @@ class Header extends Component {
             <img src="https://i.imgur.com/UpgzdD0.jpg" id="imgPrinc" alt=""/>
             <div className="cabecalho">
                 <Link to="/" className="linkColor">
-                    <div id="titulo">chega disso</div>
+                    <div id="titulo">cheg&#64; disso</div>
                 </Link>
                 <div className="link">
                     <Link to="/about" className="linkColor">
