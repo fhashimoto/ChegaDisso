@@ -4,18 +4,18 @@ import {Link} from 'react-router-dom';
 class Header extends Component {
     render(){
     return(
-        <header>
-            <nav>
-                <Link to="/"><button id="botao_menu"></button></Link>
+        <div>
+            <header>
                 <div className="cabecalho container">
-                    <Link to="/">
+                    <Link to="/" className="linkColor">
                         <div id="titulo">chega disso</div>
                     </Link>
                     <div id="categoria">Categorias</div>
                     <div id="contato">Contato</div>
                 </div>
-            </nav>
-        </header>
+            </header>
+            <img src="https://i.imgur.com/UpgzdD0.jpg" id="imgPrinc" alt=""/>
+        </div>
     );
     }
 }
