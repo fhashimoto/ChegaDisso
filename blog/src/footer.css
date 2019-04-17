@@ -1,0 +1,37 @@
+.footer{
+    background-color: #014363;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.footer .titulo {
+    color:#e5a434;
+    padding: 15px 0 5px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer .info{
+    color: white;
+}
+
+.footer .info span {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 0 5px;
+}
+  
+.footer .copyr {
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}

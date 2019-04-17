@@ -2,6 +2,11 @@ import React, {Component} from "react";
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import './App.css';
+import './header.css';
+import './form.css';
+import './footer.css';
+import './resume.css';
+import './textos.css';
 import Home from './home';
 import Agradecimento from './Agradecimento';
 import Error from './error';
