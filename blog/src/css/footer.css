@@ -34,4 +34,6 @@
     font-size: 10px;
     font-weight: bold;
     color: #757575;
+    padding-top: 7px;
+    border-top: solid #234562 1px;
 }
