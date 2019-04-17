@@ -1,10 +1,10 @@
 form{
-    padding: 15px;
+    padding: 15px 0 15px 10px;
     width: 200px;
     position: absolute;
     right: 50px;
-    top: 50px;
-    background-color: #b3b3b3;
+    top: 55px;
+    background-color: rgb(255, 255, 255, 0.8);
 }
 
 #tipo{
@@ -20,7 +20,7 @@ form{
 .botao{
     color: black;
     font-weight: bold;
-    background-color: #ca9c5f;
+    background-color: #ffcc00;
     border: none;
     padding: 10px 10px;
     text-align: center;

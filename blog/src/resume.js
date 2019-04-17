@@ -7,9 +7,9 @@ class Resume extends Component {
             <div className="corpo_resumo">
             
                 <div className="container resume">
-                <Link to="/chega_disso">
-                <img src="https://i.imgur.com/SqTyJUn.jpg" className="foto" alt=""/>
-                </Link>
+                    <Link to="/chega_disso">
+                    <img src="https://i.imgur.com/ozun5qK.png" className="foto" alt=""/>
+                    </Link>
                     <div className="resume1">
                         <Link to="/chega_disso" className="linkColor">
                         <h1>Chega disso que impede a sua empresa de crescer</h1>
@@ -20,7 +20,7 @@ class Resume extends Component {
             
                 <div className="container resume">
                     <Link to="/mulher_empreendedora">
-                    <img src="https://i.imgur.com/8Yx2L4z.jpg" className="foto" alt=""/>
+                    <img src="https://i.imgur.com/XAdjluv.jpg" className="foto" alt=""/>
                     </Link>
                     <div className="resume1">
                         <Link to="/mulher_empreendedora" className="linkColor">
@@ -31,9 +31,9 @@ class Resume extends Component {
                 </div>
             
                 <div className="container resume">
-                <Link to="/declaracao_mei">
-                <img src="https://i.imgur.com/0t2AcjT.jpg" className="foto" alt=""/>
-                </Link>
+                    <Link to="/declaracao_mei">
+                    <img src="https://i.imgur.com/39w5Ali.jpg" className="foto" alt=""/>
+                    </Link>
                     <div className="resume1">
                         <Link to="/declaracao_mei" className="linkColor">
                         <h1>Declaração Anual do MEI</h1>
@@ -44,7 +44,7 @@ class Resume extends Component {
             
                 <div className="container resume">
                     <Link to="/lema_e">
-                    <img src="https://i.imgur.com/LzNwpVm.jpg" className="foto" alt=""/>
+                    <img src="https://i.imgur.com/wf2fN2e.jpg" className="foto" alt=""/>
                     </Link>
                     <div className="resume1">
                         <Link to="/lema_e" className="linkColor">

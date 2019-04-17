@@ -1,29 +1,35 @@
 .corpo_resumo{
     position: relative;
     display: block;
-    width: 70%;
+    width: 80%;
     margin-bottom: 200px;
 }
   
 .container.resume {
-    
-    /* border: solid lightgray .5px; */
     display: flex;
     margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10%;
 }
   
 .resume1 {
     width:auto;
-    padding: 0 0 0 10px;
+    padding: 10px 0 0 10px;
     text-align: left;
+    vertical-align: middle;
 }
   
 .resume1 h1{
     font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 0;
 }
-  
-.container.resume .foto {
-    min-width: 150px;
-    height: 150px;
-    margin: 10px 0 0 10px;
+.resume1 p{
+    margin-top: 0;
+}
+
+/* Foto */
+.foto {
+    width: 365px;
+    height: auto;
 }
