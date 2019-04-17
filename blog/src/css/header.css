@@ -49,20 +49,20 @@
 
 @media only screen and (max-width: 500px) {
   .cabecalho{
-    height: 20px;
+    height: 40px;
   }
   #titulo{
-    font-size: 6pt;
+    font-size: 1em;
   }
   .link{
-    font-size: 3pt;
+    font-size: .5em;
   }
   .icon{
-    height: 15px;
-    width: 15px;    
+    height: 35px;
+    width: 35px;    
   }
   .icones a{
-    height: 15px;
-    width: 15px;
+    height: 35px;
+    width: 35px;
   }
 }
