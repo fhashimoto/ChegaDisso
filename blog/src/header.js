@@ -11,7 +11,9 @@ class Header extends Component {
                     <div id="titulo">chega disso</div>
                 </Link>
                 <div className="link">
-                    <div id="sobre">Sobre</div>
+                    <Link to="/about" className="linkColor">
+                        <div id="sobre">Sobre</div>
+                    </Link>
                     <div id="contato">Contato</div>
                 </div>
                 <div className="icones">
