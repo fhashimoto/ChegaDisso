@@ -3,13 +3,13 @@
     display: block;
     width: 80%;
     margin-bottom: 200px;
+    margin-top: 5px;
 }
   
 .container.resume {
     display: flex;
     margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 10%;
+    padding-left: 15%;
 }
   
 .resume1 {
@@ -31,5 +31,5 @@
 /* Foto */
 .foto {
     width: 365px;
-    height: auto;
+    height: 192px;
 }
