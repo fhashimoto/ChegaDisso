@@ -7,13 +7,11 @@ import './css/form.css';
 import './css/footer.css';
 import './css/resume.css';
 import './css/textos.css';
+
 import Home from './home';
 import Agradecimento from './Agradecimento';
 import Error from './error';
-import Texto1 from './Content/texto1';
-import Texto2 from './Content/texto2';
-import Texto3 from './Content/texto3';
-import Texto4 from './Content/texto4';
+import {Texto1, Texto2, Texto3, Texto4} from './Content/textos';
 
 class App extends Component {
 
