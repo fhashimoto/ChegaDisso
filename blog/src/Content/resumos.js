@@ -72,3 +72,4 @@ export class Resumo4 extends Component{
         )
     }
 }
+
