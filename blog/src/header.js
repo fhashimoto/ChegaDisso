@@ -17,8 +17,8 @@ class Header extends Component {
                     <div id="contato">Contato</div>
                 </div>
                 <div className="icones">
-                    <img src="https://i.imgur.com/riJqSMK.png" className="icon" alt=""/>
-                    <img src="https://i.imgur.com/gKCIAmf.png" className="icon" alt=""/>
+                    <a href="https://www.facebook.com/blog.chegadisso/"><img src="https://i.imgur.com/riJqSMK.png" className="icon" alt=""/></a>
+                    <a href="https://www.instagram.com/chega.disso/"><img src="https://i.imgur.com/gKCIAmf.png" className="icon" alt=""/></a>
                     <img src="https://i.imgur.com/cUd1gJU.png" className="icon" alt=""/>
                 </div>
             </div>
