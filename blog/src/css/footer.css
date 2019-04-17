@@ -1,5 +1,5 @@
 .footer{
-    background-color: #014363;
+    background-color: #f6b982;
     width: 100%;
     height: 100px;
     text-align: center;
@@ -9,7 +9,7 @@
 }
 
 .footer .titulo {
-    color:#e5a434;
+    color:#234562;
     padding: 15px 0 5px 0;
     text-transform: uppercase;
     font-weight: bold;
@@ -17,7 +17,7 @@
 }
 
 .footer .info{
-    color: white;
+    color: #757575;
 }
 
 .footer .info span {
@@ -33,5 +33,5 @@
     bottom: 5px;
     font-size: 10px;
     font-weight: bold;
-    color: white;
+    color: #757575;
 }

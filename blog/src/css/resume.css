@@ -33,3 +33,22 @@
     width: 365px;
     height: 192px;
 }
+
+@media only screen and (max-width: 500px) {
+
+    .container.resume{
+        display: inline-block;
+    }
+
+    .resume1 h1{
+        font-size: 1em;
+    }
+    .resume1 p{
+        font-size: .6em;
+    }
+
+    .foto{
+        width: 255px;
+        height: 134;
+    }
+}
