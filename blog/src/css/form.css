@@ -32,3 +32,38 @@ form{
 .botao:hover{
     box-shadow: 3px 3px 2px grey;
 }
+
+@media only screen and (max-width: 500px) {
+    form{
+        padding: 7.5px 0 7.5px 5px;
+        width: 100px;
+        top: 25px;
+        right: 15px;
+    }
+
+    .campoform{
+        width: 70px;
+        height: 0;
+        font-size: .5em;
+    }
+
+    #tipo{
+        margin-bottom: 0;
+    }
+
+    #tipo .campo{
+        display: flex;
+        align-items: center;
+        font-size: 7px;
+    }
+    #tipo input{
+        width: 8px;
+    }
+
+    .botao{
+        width: 60px;
+        padding: 5px 0 5px 0;
+        font-size: 7px;
+    }
+
+}

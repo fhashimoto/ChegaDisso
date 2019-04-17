@@ -143,11 +143,11 @@ class Form extends Component {
           className="campoform"
           />
           <div id="tipo">
-            <div>
+            <div className="campo">
               <input type="radio" name="tipo" value="B2B"/>
                 <label>Pessoal</label>
             </div>
-            <div>
+            <div className="campo">
               <input type="radio" name="tipo" value="B2C"/>
               <label>Comercial</label>
             </div>
