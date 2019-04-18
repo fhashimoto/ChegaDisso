@@ -297,3 +297,36 @@ export class Texto10 extends Component{
         )
     }
 }
+
+export class Texto11 extends Component{
+    render(){
+        return(
+            <div>
+                <Header/>
+                <Form/>
+                <div className="container_texto">
+                    <div className="titulo_texto">
+                        {/* <div id="quadrado_texto"></div> */}
+                        <h1>Birigui ou São Paulo: gestão é fundamental para o negócio, não importa a cidade</h1>
+                    </div>
+                    <div className="corpo_texto">
+                        <p className="conteudo">Conheça a história de Cássia Marques, empreendedora da cidade de Birigui, interior de São Paulo, que abriu uma loja de lingerie e já expandiu tanto no tamanho da loja como na diversidade de produtos. Ela morou em São Paulo por alguns anos e quando voltou para sua cidade natal percebeu que não conseguia encontrar produtos de qualidade e com a beleza que desejava. </p>
+                        <p className="conteudo">“Percebi que não existia uma loja que tivesse produtos de qualidade e que as pessoas iam para Araçatuba para comprar. E, até esses produtos não me agradavam”, conta a empreendedora. Confira a entrevista completa e veja tudo que ela aprendeu desde a abertura da <a href="https://www.facebook.com/eladi.birigui/">Éladi.</a></p>
+                        <h2>Como você teve a ideia de abrir esta loja?</h2>
+                        <p className="conteudo">Com mil ideias na cabeça, fui investigar o que e onde poderia achar os produtos que eu queria. Por coincidência, no mesmo mês estava tendo uma feira nacional de lingerie, em São Paulo. Fiquei muito entusiasmada com tudo que vi, várias marcas para todos os gostos, tanto básicos como os mais sofisticados. Como não sabia o que comprar e não tinha ideia do que agradaria as clientes acabei comprando muito, o que me deixou em uma situação ruim, pois não tinha capital de giro.</p>
+                        <h2>Qual foi o maior aprendizado desde que você abriu a loja?</h2>
+                        <p className="conteudo">Foram muitos aprendizados, mas posso ressaltar a falta de experiência e a confiança nos representantes que me deixaram em uma péssima situação logo no começo. Depois, as compras erradas que ficavam no estoque e a inadimplência dos clientes fizeram eu ficar em uma situação intolerável. </p>
+                        <p className="conteudo">Quando percebi estava devendo e as melhores marcas que eu trabalhava pararam de me vender. Para mudar o cenário e evitar o fechamento da loja, onde eu tinha investido as minhas economias, comecei a ir para São Paulo comprar nas lojas das fábricas e fiz um empréstimo. Aos poucos fui conseguindo honrar meus compromissos.</p>
+                        <h2>Qual o segredo do sucesso de hoje?</h2>
+                        <p className="conteudo">Acredito que o mais importante é a experiência do cliente. Eu tenho uma relação de amizade e confiança com as minhas clientes e tenho certeza que a sinceridade e a alegria com que elas são tratadas faz com que elas gostem de comprar na Éladi. Seguimos aqui as seguintes premissas: sempre sorrindo; não fazemos diferença entre clientes; e sinceridade é a chave, ou seja, não empurramos mercadorias. Além disso, a aquisição de marcas novas, sempre seguindo as tendências, fazem com que as pessoas procurarem a loja. </p>
+                        <h2>Como você faz a gestão dos funcionários na loja?</h2>
+                        <p className="conteudo">Tentei uma época pagar uma parte do salário por comissão, mas percebi logo que na minha loja isso não funciona. Somos uma família e todas as pessoas que entram não ligam em ser atendidas por uma pessoa em especial. Em uma loja com poucos funcionários, penso que a disputa por clientes não é algo saudável, e acaba gerando atritos. Penso que é primordial focar em um bom salário e bônus, se as vendas aumentarem no mês. </p>
+                        <h2>Qual sua dica para quem quer montar um negócio?</h2>
+                        <p className="conteudo">Quem quer montar um negócio tem que conhecer e amar o que vai fazer. O atendimento é fundamental e percebo hoje que muitas lojas fazem descaso com as pessoas. Uma cliente que não é bem atendida, não volta mais e isso repercute. Além disso, penso que o empreendedor precisa se planejar e contar com um bom sistema de gestão para controlar seus estoques, fazer pagamentos, entre outros. A tecnologia hoje é fundamental para atendermos o cliente ainda melhor.</p>
+                    </div>
+                </div>
+                <Footer/>
+            </div>
+        )
+    }
+}

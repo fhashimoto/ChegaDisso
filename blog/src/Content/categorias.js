@@ -46,7 +46,7 @@ class Categorias extends Component{
                         <Link to="/mulher_empreendedora">
                             <li>Mulher empreendedora, inspire-se!</li>
                         </Link>
-                        <Link>
+                        <Link to="/gestao_fundamental">
                             <li>Birigui ou São Paulo: gestão é fundamental para o negócio, não importa a cidade</li>
                         </Link>
                     </ul>
