@@ -24,7 +24,6 @@ html, body{
 .linkColor{
   display: flex;
   align-items: center;
-  justify-content: center;
   color: #234562;
   text-decoration: none;
 }
@@ -32,4 +31,12 @@ html, body{
 .linkColorFooter{
   color: #757575;
   text-decoration: none;
+}
+
+.linkColorTituloFooter{
+  display: flex;
+  align-items: center;
+  color: #234562;
+  text-decoration: none;
+  justify-content: center;
 }

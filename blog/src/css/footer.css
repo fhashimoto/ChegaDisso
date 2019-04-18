@@ -37,3 +37,22 @@
     padding-top: 7px;
     border-top: solid #234562 1px;
 }
+
+#botaoFooter{
+    border: 1px solid #666;
+    background-color: #ffcc00;
+    width: 35%;
+    height: 40px;
+    position: relative;
+    bottom: 10px;
+    left: 60%;
+    font-size: 100%;
+    font-weight: bolder;
+    border-radius: 0 15px 0 15px;
+}
+
+#botaoFooter:hover{
+    transform: scale(1.2, 1.2);
+    transition:transform 1s ease-in-out;
+}
+button:focus {outline:0;}

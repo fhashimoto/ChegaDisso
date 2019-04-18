@@ -8,8 +8,9 @@ class Footer extends Component {
     render(){
         return(
             <div>
+                <button id="botaoFooter" onClick={this.topo}>Inscreva-se</button>
                 <div className="footer">
-                    <Link to="/" className="linkColor">
+                    <Link to="/" className="linkColorTituloFooter">
                         <div className="titulo" onClick={this.topo}>Chega disso</div>
                     </Link>
                     <div className="info">
