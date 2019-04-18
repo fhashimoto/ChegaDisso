@@ -12,7 +12,7 @@ class Categorias extends Component{
                 <Header/>
                 <Form/>
                 <div className="corpoCategoria">
-                    <ul> Na midia
+                    <ul> <p>Na midia</p>
                         <Link to="/lema_e" className="linkColor">
                             <li>Quando o lema é: não empurra!</li>
                         </Link>
@@ -20,7 +20,7 @@ class Categorias extends Component{
                             <li>Confiança dos pequenos negócios na economia do país apresenta queda</li>
                         </Link>
                     </ul>
-                    <ul>Aprenda
+                    <ul> <p>Aprenda</p>
                         <Link to="/chega_disso" className="linkColor">
                             <li>Chega disso que impede a sua empresa de crescer</li>
                         </Link>
@@ -44,7 +44,7 @@ class Categorias extends Component{
                         </Link>
                     </ul>
                     
-                    <ul>Inspire-se
+                    <ul><p>Inspire-se</p>
                         <Link to="/mulher_empreendedora" className="linkColor">
                             <li>Mulher empreendedora, inspire-se!</li>
                         </Link>
