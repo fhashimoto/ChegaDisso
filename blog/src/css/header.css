@@ -51,10 +51,7 @@
   .cabecalho{
     height: 40px;
   }
-  #titulo{
-    font-size: 1em;
-  }
-  .link{
+  .link , #titulo{
     font-size: .5em;
   }
   .icon{
