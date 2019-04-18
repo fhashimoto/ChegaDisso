@@ -209,3 +209,62 @@ export class Texto7 extends Component{
     }
 }
 
+
+export class Texto8 extends Component{
+    render(){
+        return(
+            <div>
+                <Header/>
+                <Form/>
+                <div className="container_texto">
+                    <div className="titulo_texto">
+                        {/* <div id="quadrado_texto"></div> */}
+                        <h1>Conheça a máquina de cartão ideal para o seu negócio</h1>
+                    </div>
+                    <div className="corpo_texto">
+                        {/* <img src="https://i.imgur.com/ozun5qK.png" className="foto_texto" alt=""/> */}
+                        <p className="conteudo">Já parou para pensar em quantas vezes você usa seu cartão de crédito ou débito por dia, ou por mês? Se sua resposta para essa pergunta for: muitas! Você está dentro de uma pesquisa da Associação Brasileira das Empresas de Cartões de Crédito e Serviço (ABECS), que mostra que, em 2018, os cartões brasileiros movimentaram a quantia de R$450 bilhões de reais no crédito e de R$265,4 bilhões no débito, o que representa 34% do consumo familiar. Sendo assim, hoje torna-se cada vez mais inimaginável ter uma empresa, mesmo que seja pequena, que não aceita cartão.</p>
+                        <p className="conteudo">A comodidade e flexibilidade são pontos relevantes para o seu consumidor, mas o uso da famosa maquininha tem custo e todo o processo tem que ser vantajoso também para as empresas. Dados mostram que o seu negócio pode crescer muito com uma máquina de cartão, pois, na média, 61% do faturamento total das empresas são com esse tipo de venda, de acordo com a CDL – BH. </p>
+                        <p className="conteudo">E as vantagens não param, seu ticket médio, ou seja, seu valor médio de venda por produto pode aumentar, já que seu cliente não vai precisar ter todo o dinheiro no ato da compra. Dar a opção de pagamento por cartão também é sinônimo de controle e mobilidade, fornecendo mais eficiência na gestão financeira do seu negócio.</p>
+                        <h2>Qual máquina de cartão você é a ideal para o seu negócio?</h2>
+                        <p className="conteudo">Para obter essa resposta é necessário comparar alguns benefícios e custos. Confira um infográfico do jornal Gazeta do Povo que mostra desde as máquinas mais conhecidas, que aceitam um número maior de cartões, até aqueles sistemas que funcionam pelo celular e podem ser mais interessantes para quem quer economizar.</p>
+                        <p className="conteudo">Se quiser conferir o infográfico completo, <a href="https://www.gazetadopovo.com.br/economia/livre-iniciativa/empreender/maquininhas-de-cartao-sao-tantas-mas-qual-e-a-ideal-para-o-seu-negocio-3ejtjzruft2adds1bevkr2wxr/#ancora-1">clique aqui</a>. Analise as opções e não esquece de contar para a gente qual foi a melhor solução para a sua empresa! </p>
+                    </div>
+                </div>
+                <Footer/>
+            </div>
+        )
+    }
+}
+
+export class Texto9 extends Component{
+    render(){
+        return(
+            <div>
+                <Header/>
+                <Form/>
+                <div className="container_texto">
+                    <div className="titulo_texto">
+                        {/* <div id="quadrado_texto"></div> */}
+                        <h1>Abri minha empresa, e agora?</h1>
+                        <p className="subtitle">Confira dicas para quem abriu um negócio recentemente</p>
+                    </div>
+                    <div className="corpo_texto">
+                        {/* <img src="https://i.imgur.com/39w5Ali.jpg" className="foto_texto" alt=""/> */}
+                        <p className="conteudo">O primeiro passo já foi dado: a sua empresa está no mercado e os primeiros clientes estão surgindo. Agora vale repassar o que estava no seu planejamento inicial, verificar o que está dando certo e o que precisa ser revisto nos processos de funcionamento do negócio. Lembre-se: metas e objetivos podem mudar ou vir a adaptar-se a novas realidades, mas é fundamental que estejam sempre claros para você e sua equipe.</p>
+                        <p className="conteudo">Vamos repassar alguns pontos de atenção. Caneta na mão e prepare o checklist:</p>
+                        <ol>
+                            <li>Como está o planejamento? Se você está encontrando muitos gaps que não estava previstos, talvez seja melhor retomar o planejamento inicial e adaptá-lo aos novos pontos de dificuldade.</li>
+                            <li>Como está a gestão do negócio? Reúna o máximo de informações que puder sobre os processos da sua empresa e reflita se tem alguma forma de ser mais eficiente. Dica: existem ferramentas de gestão on-line que transformam o dia a dia do empreendedor. </li>
+                            <li>Após essa análise priorize as mudanças que você quer fazer antes de tomar decisões.</li>
+                            <li>Agora é o momento da implantação! Considere as opções e reestruture as áreas do negócio a partir do novo plano de ação ou das novas ferramentas, mas sempre atentando-se às metas e a sua realidade.</li>
+                            <li>Comunique a sua equipe! Comunicação e foco são essenciais, principalmente nesse início de jornada.</li>
+                        </ol>
+                        <p className="conteudo">Deve haver persistência em hábitos produtivos, pois às vezes exige uma fase de adaptação. Mas cuidado para não demorar muito para mudar de rumo e não tenha medo ou receio de voltar atrás em decisões. Gostou do conteúdo? Cadastre-se para receber as novidades do Chega Disso no seu e-mail.</p>                
+                    </div>
+                </div>
+                <Footer/>
+            </div>
+        )
+    }
+}

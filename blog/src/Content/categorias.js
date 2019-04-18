@@ -32,10 +32,10 @@ class Categorias extends Component{
                         <Link to="/tempo_deus">
                             <li>Tempo não é dinheiro, tempo é Deus</li>
                         </Link>
-                        <Link>
+                        <Link to="/maquina_ideal">
                             <li>Conheça a máquina de cartão ideal para o seu negócio</li>                    
                         </Link>
-                        <Link>
+                        <Link to="/e_agora">
                             <li>Abri minha empresa, e agora?</li>
                         </Link>
                         <Link>
