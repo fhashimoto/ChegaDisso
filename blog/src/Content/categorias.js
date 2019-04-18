@@ -4,6 +4,7 @@ import Header from '../header';
 import Form from '../form';
 import Footer from '../footer';
 
+
 class Categorias extends Component{
     render(){
         return(
