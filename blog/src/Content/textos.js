@@ -177,3 +177,35 @@ export class Texto6 extends Component{
         )
     }
 }
+
+export class Texto7 extends Component{
+    render(){
+        return(
+            <div>
+                <Header/>
+                <Form/>
+                <div className="container_texto">
+                    <div className="titulo_texto">
+                        {/* <div id="quadrado_texto"></div> */}
+                        <h1>Tempo não é dinheiro, tempo é Deus</h1>
+                    </div>
+                    <div className="corpo_texto">
+                        {/* <img src="https://i.imgur.com/wf2fN2e.jpg" className="foto_texto" alt=""/> */}
+                        <p className="conteudo">Sem o tempo não conseguimos fazer tudo como desejamos. Então, nada melhor do que uma ferramenta que te ajude com as tarefas empresariais para que você consiga ter tempo para pensar na estratégia do negócio. </p>
+                        <p className="conteudo">Agora, graças a tecnologia você pode controlar melhor o seu tempo. Com softwares revolucionários desenvolvidos a partir de tecnologias modernas você otimiza seu tempo como jamais imaginou antes. Essas funcionalidades podem fazer você vender mais, encontrar clientes, gerenciar leads (cadastros, contatos etc) e organizar prospecções de uma maneira mais simples e objetiva. </p>
+                        <h2>Como estes softwares de gestão podem ajudar a sua empresa?</h2>
+                        <p className="conteudo"><b>Melhora o seu estoque dos produtos -</b> Controlar de forma integrada as entradas e saídas do seu estoque com suas vendas, produtos produzidos, remessas e compras de mercadoria.</p>
+                        <p className="conteudo"><b>Ajuda a cumprir com as obrigações fiscais -</b> Além de garantir a operação no dia a dia da sua empresa, ainda é necessário junto com sua contabilidade realizar as entregas de todas as suas obrigações fiscais. </p>
+                        <p className="conteudo"><b>Integrar tudo com o seu contador -</b> Você consegue enviar documentos e malotes e ter insegurança com informações contábeis consomem um tempo valioso e impedem que você usufrua do melhor que o contador pode te dar - a consultoria financeira e estratégica.</p>
+                        <p className="conteudo"><b>Enviar a nota fiscal e cobrança para o cliente -</b> Quando o cliente compra um produto ou serviço o processo que finaliza essa venda é a emissão da nota fiscal. É aí que você se engana, pois ainda é necessário gerar as cobranças e ainda enviar ao cliente.</p>
+                        <p className="conteudo"><b>Saber o custo de produção -</b> Saber todas as matérias primas para fabricar cada produto e analisar o custo delas mais mão de obra e outros gastos.</p>
+                        <h2>Lembre-se: o crescimento exponencial está na gestão do seu negócio. </h2>
+                        <p className="conteudo">Tendo certeza e transparência sobre os dados e informações estratégicas da sua operação, você pode tomar melhores decisões. Busque um sistema de gestão intuitivo para ter o controle da sua empresa. Usufruindo da tecnologia para acabar com as tarefas repetitivas, você usa o seu tão valioso tempo a seu favor e dá foco no que realmente precisa e gera valor.</p>
+                    </div>
+                </div>
+                <Footer/>
+            </div>
+        )
+    }
+}
+

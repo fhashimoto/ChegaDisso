@@ -29,7 +29,7 @@ class Categorias extends Component{
                         <Link to="/teste_gestao">
                             <li>Teste sua gestão agora</li>
                         </Link>
-                        <Link>
+                        <Link to="/tempo_deus">
                             <li>Tempo não é dinheiro, tempo é Deus</li>
                         </Link>
                         <Link>

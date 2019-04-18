@@ -12,7 +12,7 @@ import './css/agradecimento.css';
 import Home from './home';
 import Agradecimento from './Agradecimento';
 import Error from './error';
-import {Texto1, Texto2, Texto3, Texto4, Texto5, Texto6} from './Content/textos';
+import {Texto1, Texto2, Texto3, Texto4, Texto5, Texto6, Texto7} from './Content/textos';
 import { Sobre } from "./Content/sobre";
 import Categorias from "./Content/categorias";
 
@@ -31,6 +31,7 @@ class App extends Component {
             <Route path="/lema_e" component={Texto4}/>
             <Route path="/conf" component={Texto5}/>
             <Route path="/teste_gestao" component={Texto6}/>
+            <Route path="/tempo_deus" component={Texto7}/>
             <Route path="/about" component={Sobre}/>
             <Route path="/cat" component={Categorias}/>
             <Route component={Error}/>
