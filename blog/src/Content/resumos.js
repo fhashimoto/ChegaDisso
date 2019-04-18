@@ -60,7 +60,7 @@ export class Resumo4 extends Component{
         return(
             <div className="container resume">
                 <Link to="/lema_e">
-                <img src="https://i.imgur.com/wf2fN2e.jpg" className="foto" alt=""/>
+                <img src="https://i.imgur.com/5BP1D05.jpg" className="foto" alt=""/>
                 </Link>
                 <div className="resume1">
                     <Link to="/lema_e" className="linkColor">
