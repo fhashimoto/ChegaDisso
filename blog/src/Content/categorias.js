@@ -43,8 +43,8 @@ class Categorias extends Component{
                             <li>4 dicas para começar bem o seu negócio</li>
                         </Link>
                     </ul>
-                    Inspire-se
-                    <ul>
+                    
+                    <ul>Inspire-se
                         <Link to="/mulher_empreendedora" className="linkColor">
                             <li>Mulher empreendedora, inspire-se!</li>
                         </Link>
