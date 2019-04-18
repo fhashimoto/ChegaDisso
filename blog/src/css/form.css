@@ -39,7 +39,8 @@ form{
         padding: 7.5px 0 7.5px 5px;
         width: 140px;
         top: 42px;
-        right: 15px;
+        right: 1.5%;
+        margin-right: 1.5%;
     }
 
     .campoform{

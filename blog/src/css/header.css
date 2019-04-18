@@ -62,4 +62,7 @@
     height: 35px;
     width: 35px;
   }
+  #imgPrinc{
+    min-height: 220px;
+  }
 }
