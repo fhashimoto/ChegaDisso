@@ -130,6 +130,7 @@ export class Texto5 extends Component{
                     <div className="titulo_texto">
                         {/* <div id="quadrado_texto"></div> */}
                         <h1>Confiança dos pequenos negócios na economia do país apresenta queda</h1>
+                        <p className="subtitle"> </p>
                     </div>
                     <div className="corpo_texto">
                         {/* <img src="https://i.imgur.com/ozun5qK.png" className="foto_texto" alt=""/> */}
@@ -158,7 +159,7 @@ export class Texto6 extends Component{
                         <p className="subtitle">6 perguntas que você precisa ter a resposta</p>
                     </div>
                     <div className="corpo_texto">
-                        {/* <img src="https://i.imgur.com/39w5Ali.jpg" className="foto_texto" alt=""/> */}
+                        <img src="https://i.imgur.com/hwsNeWf.jpg" className="foto_texto" alt=""/>
                         <p className="conteudo">O Chega Disso traz algumas questões que todo empreendimento precisa conseguir responder para ter sucesso na sua gestão. Se você não souber responder, vale levantar dados e pensar no tema. Talvez seja uma área que sua empresa está precisando melhorar.</p>
                         <h2>Vamos às perguntas:</h2>
                         <ol>
@@ -188,9 +189,10 @@ export class Texto7 extends Component{
                     <div className="titulo_texto">
                         {/* <div id="quadrado_texto"></div> */}
                         <h1>Tempo não é dinheiro, tempo é Deus</h1>
+                        <p className="subtitle"> </p>
                     </div>
                     <div className="corpo_texto">
-                        {/* <img src="https://i.imgur.com/wf2fN2e.jpg" className="foto_texto" alt=""/> */}
+                        <img src="https://i.imgur.com/ggHE6Jt.jpg" className="foto_texto" alt=""/>
                         <p className="conteudo">Sem o tempo não conseguimos fazer tudo como desejamos. Então, nada melhor do que uma ferramenta que te ajude com as tarefas empresariais para que você consiga ter tempo para pensar na estratégia do negócio. </p>
                         <p className="conteudo">Agora, graças a tecnologia você pode controlar melhor o seu tempo. Com softwares revolucionários desenvolvidos a partir de tecnologias modernas você otimiza seu tempo como jamais imaginou antes. Essas funcionalidades podem fazer você vender mais, encontrar clientes, gerenciar leads (cadastros, contatos etc) e organizar prospecções de uma maneira mais simples e objetiva. </p>
                         <h2>Como estes softwares de gestão podem ajudar a sua empresa?</h2>
@@ -220,9 +222,10 @@ export class Texto8 extends Component{
                     <div className="titulo_texto">
                         {/* <div id="quadrado_texto"></div> */}
                         <h1>Conheça a máquina de cartão ideal para o seu negócio</h1>
+                        <p className="subtitle"> </p>
                     </div>
                     <div className="corpo_texto">
-                        {/* <img src="https://i.imgur.com/ozun5qK.png" className="foto_texto" alt=""/> */}
+                        <img src="https://i.imgur.com/4vnoaRY.jpg" className="foto_texto" alt=""/>
                         <p className="conteudo">Já parou para pensar em quantas vezes você usa seu cartão de crédito ou débito por dia, ou por mês? Se sua resposta para essa pergunta for: muitas! Você está dentro de uma pesquisa da Associação Brasileira das Empresas de Cartões de Crédito e Serviço (ABECS), que mostra que, em 2018, os cartões brasileiros movimentaram a quantia de R$450 bilhões de reais no crédito e de R$265,4 bilhões no débito, o que representa 34% do consumo familiar. Sendo assim, hoje torna-se cada vez mais inimaginável ter uma empresa, mesmo que seja pequena, que não aceita cartão.</p>
                         <p className="conteudo">A comodidade e flexibilidade são pontos relevantes para o seu consumidor, mas o uso da famosa maquininha tem custo e todo o processo tem que ser vantajoso também para as empresas. Dados mostram que o seu negócio pode crescer muito com uma máquina de cartão, pois, na média, 61% do faturamento total das empresas são com esse tipo de venda, de acordo com a CDL – BH. </p>
                         <p className="conteudo">E as vantagens não param, seu ticket médio, ou seja, seu valor médio de venda por produto pode aumentar, já que seu cliente não vai precisar ter todo o dinheiro no ato da compra. Dar a opção de pagamento por cartão também é sinônimo de controle e mobilidade, fornecendo mais eficiência na gestão financeira do seu negócio.</p>
@@ -279,8 +282,10 @@ export class Texto10 extends Component{
                     <div className="titulo_texto">
                         {/* <div id="quadrado_texto"></div> */}
                         <h1>4 dicas para começar bem o seu negócio</h1>
+                        <p className="subtitle"> </p>
                     </div>
                     <div className="corpo_texto">
+                        <img src="https://i.imgur.com/dNeIb4g.jpg" className="foto_texto" alt=""/>
                         <p className="conteudo">Agora que você já tirou a ideia do negócio dos seus sonhos do papel, está na hora de pensar em quais serão seus próximos passos para alcançar os primeiros resultados. E foi pensando neste estágio inicial que reunimos algumas dicas valiosas para você. Vamos lá?</p>
                         <h2>1&ordm;	Suas contas pessoais não devem se misturar com as da empresa</h2>
                         <p className="conteudo">Nos primeiros dias da sua empresa, se preocupe em ter uma conta bancária só para ela e evite misturar seus gastos pessoais com os do negócio. Inicialmente pode parecer mais fácil e simples, pois as suas vendas e recebimentos terão um volume pequeno, mas com o crescimento do fluxo de caixa você terá um grande problema.</p>
@@ -308,6 +313,7 @@ export class Texto11 extends Component{
                     <div className="titulo_texto">
                         {/* <div id="quadrado_texto"></div> */}
                         <h1>Birigui ou São Paulo: gestão é fundamental para o negócio, não importa a cidade</h1>
+                        <p className="subtitle"> </p>
                     </div>
                     <div className="corpo_texto">
                         <p className="conteudo">Conheça a história de Cássia Marques, empreendedora da cidade de Birigui, interior de São Paulo, que abriu uma loja de lingerie e já expandiu tanto no tamanho da loja como na diversidade de produtos. Ela morou em São Paulo por alguns anos e quando voltou para sua cidade natal percebeu que não conseguia encontrar produtos de qualidade e com a beleza que desejava. </p>

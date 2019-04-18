@@ -1,0 +1,10 @@
+.corpoCategoria{
+    display: flex;
+}
+.corpoCategoria ul{
+    text-align: center;
+}
+.corpoCategoria li{
+    text-align: left;
+    margin: 20px 0;
+}
