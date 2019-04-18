@@ -67,6 +67,11 @@ p.subtitle{
     max-height: 150px;
 }
 
+/* Listas */
+.corpo_texto li{
+    margin-bottom: 10px;
+}
+
 @media only screen and (max-width: 500px) {
     .titulo_texto h1{
         font-size: 1.15em;
