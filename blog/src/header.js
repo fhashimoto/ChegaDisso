@@ -14,7 +14,9 @@ class Header extends Component {
                     <Link to="/about" className="linkColor">
                         <div id="sobre">Sobre</div>
                     </Link>
-                    <div id="contato">Categorias</div>
+                    <Link to="/cat" className="linkColor">
+                        <div id="contato">Categorias</div>
+                    </Link>
                 </div>
                 <div className="icones">
                     <a href="https://www.facebook.com/blog.chegadisso/"><img src="https://i.imgur.com/riJqSMK.png" className="icon" alt=""/></a>

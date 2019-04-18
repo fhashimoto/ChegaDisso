@@ -144,3 +144,36 @@ export class Texto5 extends Component{
         )
     }
 }
+
+export class Texto6 extends Component{
+    render(){
+        return(
+            <div>
+                <Header/>
+                <Form/>
+                <div className="container_texto">
+                    <div className="titulo_texto">
+                        {/* <div id="quadrado_texto"></div> */}
+                        <h1>Teste sua gestão agora</h1>
+                        <p className="subtitle">6 perguntas que você precisa ter a resposta</p>
+                    </div>
+                    <div className="corpo_texto">
+                        {/* <img src="https://i.imgur.com/39w5Ali.jpg" className="foto_texto" alt=""/> */}
+                        <p className="conteudo">O Chega Disso traz algumas questões que todo empreendimento precisa conseguir responder para ter sucesso na sua gestão. Se você não souber responder, vale levantar dados e pensar no tema. Talvez seja uma área que sua empresa está precisando melhorar.</p>
+                        <h2>Vamos às perguntas:</h2>
+                        <ol>
+                            <li>Qual o seu propósito?</li>
+                            <li>Você consegue explicar para um grupo de estudantes de MBA como sua empresa está organizada? </li>
+                            <li>Quais são as atividades, ramificações e como os processos estão organizados? </li>
+                            <li>Qual o gasto do seu negócio? O fluxo de caixa está como o planejado?</li>
+                            <li>O seu cliente está satisfeito com toda a jornada de compra? Quais os últimos resultados das pesquisas com o cliente?</li>
+                            <li>Qual foi a última vez que você perguntou ao seu colaborador o que ele acredita que deve ser mudado na empresa?</li>
+                        </ol>
+                        <p className="conteudo">A resposta para essas perguntas só você pode dar e o aprendizado deve ser ciclo. Mantenha atualizado e informe-se ao máximo: busque aperfeiçoar as suas práticas e a buscar conhecimento especializado. Curtiu o nosso teste? Cadastre-se no Chega Disso e receba mais conteúdos como este.</p>                
+                    </div>
+                </div>
+                <Footer/>
+            </div>
+        )
+    }
+}

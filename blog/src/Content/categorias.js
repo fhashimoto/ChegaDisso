@@ -26,7 +26,7 @@ class Categorias extends Component{
                         <Link to="/declaracao_mei">
                             <li>Declaração anual do MEI o que você precisa saber</li>
                         </Link>
-                        <Link>
+                        <Link to="/teste_gestao">
                             <li>Teste sua gestão agora</li>
                         </Link>
                         <Link>
