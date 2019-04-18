@@ -87,6 +87,7 @@ class Form extends Component {
           nome = 0,
           email = 0;
         nome = this.refs.nome.value;
+        //Talvez implementar uma validação por RegEx do e-mail
         email = this.refs.email.value;
         tipo = $('input[name=tipo]:checked',"#tipo").val();
       let ipapi = null;
