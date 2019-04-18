@@ -3,6 +3,7 @@
 }
 .corpoCategoria ul{
     text-align: center;
+    list-style-type: none;
 }
 .corpoCategoria li{
     text-align: left;
