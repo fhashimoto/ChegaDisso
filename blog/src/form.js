@@ -127,20 +127,20 @@ class Form extends Component {
     };
     render(){
       console.log("Renderizado");
-      return(   
-          <form onSubmit={this.handleSubmit} className="subscribe">
+      return(
+        <form onSubmit={this.handleSubmit} className="subscribe">
           <input type="hidden" ref="uid" />
           <input
-              type="text"
-              ref="nome"
-              placeholder="Nome*"
-              className="campoform"
+            type="text"
+            ref="nome"
+            placeholder="Nome*"
+            className="campoform"
           />
           <input
-          type="email"
-          ref="email"
-          placeholder="E-mail*"
-          className="campoform"
+            type="email"
+            ref="email"
+            placeholder="E-mail*"
+            className="campoform"
           />
           <div id="tipo">
             <div className="campo">
