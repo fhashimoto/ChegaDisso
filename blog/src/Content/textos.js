@@ -268,3 +268,32 @@ export class Texto9 extends Component{
         )
     }
 }
+
+export class Texto10 extends Component{
+    render(){
+        return(
+            <div>
+                <Header/>
+                <Form />
+                <div className="container_texto">
+                    <div className="titulo_texto">
+                        {/* <div id="quadrado_texto"></div> */}
+                        <h1>4 dicas para começar bem o seu negócio</h1>
+                    </div>
+                    <div className="corpo_texto">
+                        <p className="conteudo">Agora que você já tirou a ideia do negócio dos seus sonhos do papel, está na hora de pensar em quais serão seus próximos passos para alcançar os primeiros resultados. E foi pensando neste estágio inicial que reunimos algumas dicas valiosas para você. Vamos lá?</p>
+                        <h2>1&ordm;	Suas contas pessoais não devem se misturar com as da empresa</h2>
+                        <p className="conteudo">Nos primeiros dias da sua empresa, se preocupe em ter uma conta bancária só para ela e evite misturar seus gastos pessoais com os do negócio. Inicialmente pode parecer mais fácil e simples, pois as suas vendas e recebimentos terão um volume pequeno, mas com o crescimento do fluxo de caixa você terá um grande problema.</p>
+                        <h2>2&ordm; A tecnologia é sua parceira</h2>
+                        <p className="conteudo">Nada de controlar tudo no caderninho ou na cabeça, no início do seu negócio é importante contar com sistemas de gestão que fazem o controle de pagamentos, estoques e ajudam até na relação com seu contador. Caso você ainda não tenha viabilidade financeira para sistemas assim, conte com o Excel neste primeiro momento, ele ajudará na organização geral da sua empresa.</p>
+                        <h2>3&ordm; Corte custos pessoais</h2>
+                        <p className="conteudo">Seu negócio ainda está engatinhando e irá precisar muito de você! Na fase inicial de qualquer empreendimento é comum que o empreendedor seja a fonte primária de capital. Além disso, você terá poucas pessoas trabalhando com você e é importante ajustar os seus gastos pessoais visando o suporte financeiro que você terá que dar para a empresa.</p>
+                        <h2>&ordm; Teste o seu produto ou serviço!</h2>
+                        <p className="conteudo">O verdadeiro chefe do seu negócio é o seu cliente, assim nada mais justo que ele dizer o que pensa sobre o seu produto ou serviço. Uma dica valiosa é testar a sua solução em pequena escala, diretamente com seu público-alvo e ir coletando feedbacks para aperfeiçoar a versão inicial. Dessa forma, a chance da sua empresa oferecer algo realmente relevante ao mercado é grande. Mas fique atento: essa prática não deve de encerrar na fase propulsora do negócio, ter feedbacks constantes de seus clientes é a chave para o crescimento.</p>
+                    </div>
+                </div>
+                <Footer/>
+            </div>
+        )
+    }
+}

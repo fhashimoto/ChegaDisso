@@ -38,7 +38,7 @@ class Categorias extends Component{
                         <Link to="/e_agora">
                             <li>Abri minha empresa, e agora?</li>
                         </Link>
-                        <Link>
+                        <Link to="/4_dicas">
                             <li>4 dicas para começar bem o seu negócio</li>
                         </Link>
                     </ul>
