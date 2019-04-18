@@ -119,3 +119,28 @@ export class Texto4 extends Component{
         )
     }
 }
+
+export class Texto5 extends Component{
+    render(){
+        return(
+            <div>
+                <Header/>
+                <Form/>
+                <div className="container_texto">
+                    <div className="titulo_texto">
+                        {/* <div id="quadrado_texto"></div> */}
+                        <h1>Confiança dos pequenos negócios na economia do país apresenta queda</h1>
+                    </div>
+                    <div className="corpo_texto">
+                        {/* <img src="https://i.imgur.com/ozun5qK.png" className="foto_texto" alt=""/> */}
+                        <p className="conteudo">O índice de otimismo dos empreendedores quanto aos rumos da economia brasileira caiu cerca de 10 pontos percentuais nos primeiros três meses de 2019, mas a confiança dos donos de micro e pequenos negócios continua em alta. É o que mostra a Sondagem Conjuntural feita pelo Sebrae. O estudo aponta que 69,6% dos empresários entrevistados estão acreditando na recuperação do país, contra 79,5% apontado na pesquisa de dezembro, quando foi feito o último levantamento. </p>
+                        <p className="conteudo">A marca de 79,5% de empreendedores otimistas, verificada em dezembro, foi a maior já registrada desde junho de 2017, quando a pesquisa começou a ser feita pelo Sebrae. O levantamento, feito trimestralmente, tem como objetivo conhecer as expectativas dos donos de pequenos negócios em relação à economia brasileira e ao seu próprio empreendimento.</p>
+                        <p className="conteudo">A Sondagem conjuntural ouviu 2.992 Microempreendedores Individuais (MEI), empresários de Micro e Pequenas Empresas (ME) e donos de Empresas de Pequeno Porte (EPP). Mais da metade deles (68,5%) se mostraram bastante otimistas com relação à melhora do faturamento de sua empresa em 2019, apesar da queda de quase 9 pontos percentuais em relação a dezembro de 2018. Os que acreditam que a situação vai ficar como está, somaram 22,5%, índice maior do que ano passado, que era 16,8%, enquanto que os pessimistas cresceram de 3,3% para 6,8%.</p>
+                        <p className="conteudo">Cadastre-se no blog e receba mais conteúdos como este.</p>
+                    </div>
+                </div>
+                <Footer/>
+            </div>
+        )
+    }
+}
