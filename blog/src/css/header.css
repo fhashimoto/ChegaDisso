@@ -7,7 +7,7 @@
 }
 /* Barra transparente do cabecalho */
 .cabecalho{
-  background-color: rgba(255, 255, 255, 0.7);
+  background-image: linear-gradient(white, rgba(255, 255, 255, 0.4));
   color: #234562;
   width: 100%;
   height: 50px;
