@@ -16,7 +16,7 @@ export class Texto1 extends Component{
                         <p className="subtitle">Conheça o blog que vai compartilhar todas as dicas para melhorar a gestão da sua PME</p>
                     </div>
                     <div className="corpo_texto">
-                        <img src="https://i.imgur.com/ozun5qK.png" className="foto_texto" alt=""/>
+                        <img src="https://i.imgur.com/dPYm3OE.jpg" className="foto_texto" alt=""/>
                         <p className="conteudo">Chega de post it para organizar as contas que você pagou no final do mês, de achismos, de esperar o consumidor bater na sua porta, de torcer por mudanças no cenário econômico do país. Muitos podem pensar: “eu não preciso disso, minha empresa está muito bem e adoro meu próprio método para lembrar de pagar as contas”. Concordamos que cada negócio tem uma particularidade e pode exigir uma ferramenta diferente, mas a gestão e a tecnologia precisam permear todas elas.</p>
                         <p className="conteudo">Empresas que não tem gestão e tecnologia para ajudar com suas finanças, tem grandes chances de entrar em um índice brasileiro bem alarmante. Segundo a pesquisa Demografia das Empresas, divulgada pelo Instituto Brasileiro de Geografia e Estatística (IBGE) cinco anos após as empresas serem criadas, pouco mais de 60% delas fecharam as portas. O estudo ainda aponta que das 733,6 mil empresas que nasceram em 2010, apenas 277,2 mil sobreviveram até 2015. </p>
                         <h2>O que faz uma pequena e média empresa (PME) sobreviver?</h2>
@@ -294,7 +294,7 @@ export class Texto10 extends Component{
                         <p className="conteudo">Nada de controlar tudo no caderninho ou na cabeça, no início do seu negócio é importante contar com sistemas de gestão que fazem o controle de pagamentos, estoques e ajudam até na relação com seu contador. Caso você ainda não tenha viabilidade financeira para sistemas assim, conte com o Excel neste primeiro momento, ele ajudará na organização geral da sua empresa.</p>
                         <h2>3&ordm; Corte custos pessoais</h2>
                         <p className="conteudo">Seu negócio ainda está engatinhando e irá precisar muito de você! Na fase inicial de qualquer empreendimento é comum que o empreendedor seja a fonte primária de capital. Além disso, você terá poucas pessoas trabalhando com você e é importante ajustar os seus gastos pessoais visando o suporte financeiro que você terá que dar para a empresa.</p>
-                        <h2>&ordm; Teste o seu produto ou serviço!</h2>
+                        <h2>4&ordm; Teste o seu produto ou serviço!</h2>
                         <p className="conteudo">O verdadeiro chefe do seu negócio é o seu cliente, assim nada mais justo que ele dizer o que pensa sobre o seu produto ou serviço. Uma dica valiosa é testar a sua solução em pequena escala, diretamente com seu público-alvo e ir coletando feedbacks para aperfeiçoar a versão inicial. Dessa forma, a chance da sua empresa oferecer algo realmente relevante ao mercado é grande. Mas fique atento: essa prática não deve de encerrar na fase propulsora do negócio, ter feedbacks constantes de seus clientes é a chave para o crescimento.</p>
                     </div>
                 </div>
