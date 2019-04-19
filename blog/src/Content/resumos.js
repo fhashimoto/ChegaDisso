@@ -2,9 +2,6 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 
 export class Resumo1 extends Component {
-    teste(){
-        window.scroll(0, 200);
-    }
     render(){
         return(
             <div className="container resume">
@@ -23,9 +20,6 @@ export class Resumo1 extends Component {
 }
 
 export class Resumo2 extends Component{
-    teste(){
-        window.scroll(0, 200);
-    }
     render(){
         return(
             <div className="container resume">
@@ -44,9 +38,6 @@ export class Resumo2 extends Component{
 }
 
 export class Resumo3 extends Component{
-    teste(){
-        window.scroll(0, 200);
-    }
     render(){
         return(
             <div className="container resume">
@@ -65,9 +56,6 @@ export class Resumo3 extends Component{
 }
 
 export class Resumo4 extends Component{
-    teste(){
-        window.scroll(0, 200);
-    }
     render(){
         return(
             <div className="container resume">

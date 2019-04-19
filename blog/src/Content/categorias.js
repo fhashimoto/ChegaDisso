@@ -7,7 +7,7 @@ import Footer from '../footer';
 
 class Categorias extends Component{
     teste(){
-        window.scroll(0, 200);
+        window.scroll(0, 300);
     }
 
     render(){
