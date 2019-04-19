@@ -133,7 +133,7 @@ export class Texto5 extends Component{
                         <p className="subtitle"> </p>
                     </div>
                     <div className="corpo_texto">
-                        {/* <img src="https://i.imgur.com/ozun5qK.png" className="foto_texto" alt=""/> */}
+                        <img src="https://i.imgur.com/SGnZlvd.jpg" className="foto_texto" alt=""/>
                         <p className="conteudo">O índice de otimismo dos empreendedores quanto aos rumos da economia brasileira caiu cerca de 10 pontos percentuais nos primeiros três meses de 2019, mas a confiança dos donos de micro e pequenos negócios continua em alta. É o que mostra a Sondagem Conjuntural feita pelo Sebrae. O estudo aponta que 69,6% dos empresários entrevistados estão acreditando na recuperação do país, contra 79,5% apontado na pesquisa de dezembro, quando foi feito o último levantamento. </p>
                         <p className="conteudo">A marca de 79,5% de empreendedores otimistas, verificada em dezembro, foi a maior já registrada desde junho de 2017, quando a pesquisa começou a ser feita pelo Sebrae. O levantamento, feito trimestralmente, tem como objetivo conhecer as expectativas dos donos de pequenos negócios em relação à economia brasileira e ao seu próprio empreendimento.</p>
                         <p className="conteudo">A Sondagem conjuntural ouviu 2.992 Microempreendedores Individuais (MEI), empresários de Micro e Pequenas Empresas (ME) e donos de Empresas de Pequeno Porte (EPP). Mais da metade deles (68,5%) se mostraram bastante otimistas com relação à melhora do faturamento de sua empresa em 2019, apesar da queda de quase 9 pontos percentuais em relação a dezembro de 2018. Os que acreditam que a situação vai ficar como está, somaram 22,5%, índice maior do que ano passado, que era 16,8%, enquanto que os pessimistas cresceram de 3,3% para 6,8%.</p>
@@ -159,7 +159,7 @@ export class Texto6 extends Component{
                         <p className="subtitle">6 perguntas que você precisa ter a resposta</p>
                     </div>
                     <div className="corpo_texto">
-                        <img src="https://i.imgur.com/hwsNeWf.jpg" className="foto_texto" alt=""/>
+                        <img src="https://i.imgur.com/q09Pz8E.jpg" className="foto_texto" alt=""/>
                         <p className="conteudo">O Chega Disso traz algumas questões que todo empreendimento precisa conseguir responder para ter sucesso na sua gestão. Se você não souber responder, vale levantar dados e pensar no tema. Talvez seja uma área que sua empresa está precisando melhorar.</p>
                         <h2>Vamos às perguntas:</h2>
                         <ol>
@@ -192,7 +192,7 @@ export class Texto7 extends Component{
                         <p className="subtitle"> </p>
                     </div>
                     <div className="corpo_texto">
-                        <img src="https://i.imgur.com/ggHE6Jt.jpg" className="foto_texto" alt=""/>
+                        <img src="https://i.imgur.com/3OXHrBg.jpg" className="foto_texto" alt=""/>
                         <p className="conteudo">Sem o tempo não conseguimos fazer tudo como desejamos. Então, nada melhor do que uma ferramenta que te ajude com as tarefas empresariais para que você consiga ter tempo para pensar na estratégia do negócio. </p>
                         <p className="conteudo">Agora, graças a tecnologia você pode controlar melhor o seu tempo. Com softwares revolucionários desenvolvidos a partir de tecnologias modernas você otimiza seu tempo como jamais imaginou antes. Essas funcionalidades podem fazer você vender mais, encontrar clientes, gerenciar leads (cadastros, contatos etc) e organizar prospecções de uma maneira mais simples e objetiva. </p>
                         <h2>Como estes softwares de gestão podem ajudar a sua empresa?</h2>
@@ -226,7 +226,7 @@ export class Texto8 extends Component{
                         <p className="subtitle"> </p>
                     </div>
                     <div className="corpo_texto">
-                        <img src="https://i.imgur.com/4vnoaRY.jpg" className="foto_texto" alt=""/>
+                        <img src="https://i.imgur.com/yWmV05q.jpg" className="foto_texto" alt=""/>
                         <p className="conteudo">Já parou para pensar em quantas vezes você usa seu cartão de crédito ou débito por dia, ou por mês? Se sua resposta para essa pergunta for: muitas! Você está dentro de uma pesquisa da Associação Brasileira das Empresas de Cartões de Crédito e Serviço (ABECS), que mostra que, em 2018, os cartões brasileiros movimentaram a quantia de R$450 bilhões de reais no crédito e de R$265,4 bilhões no débito, o que representa 34% do consumo familiar. Sendo assim, hoje torna-se cada vez mais inimaginável ter uma empresa, mesmo que seja pequena, que não aceita cartão.</p>
                         <p className="conteudo">A comodidade e flexibilidade são pontos relevantes para o seu consumidor, mas o uso da famosa maquininha tem custo e todo o processo tem que ser vantajoso também para as empresas. Dados mostram que o seu negócio pode crescer muito com uma máquina de cartão, pois, na média, 61% do faturamento total das empresas são com esse tipo de venda, de acordo com a CDL – BH. </p>
                         <p className="conteudo">E as vantagens não param, seu ticket médio, ou seja, seu valor médio de venda por produto pode aumentar, já que seu cliente não vai precisar ter todo o dinheiro no ato da compra. Dar a opção de pagamento por cartão também é sinônimo de controle e mobilidade, fornecendo mais eficiência na gestão financeira do seu negócio.</p>
@@ -254,7 +254,7 @@ export class Texto9 extends Component{
                         <p className="subtitle">Confira dicas para quem abriu um negócio recentemente</p>
                     </div>
                     <div className="corpo_texto">
-                        {/* <img src="https://i.imgur.com/39w5Ali.jpg" className="foto_texto" alt=""/> */}
+                        <img src="https://i.imgur.com/qZzFANw.jpg" className="foto_texto" alt=""/>
                         <p className="conteudo">O primeiro passo já foi dado: a sua empresa está no mercado e os primeiros clientes estão surgindo. Agora vale repassar o que estava no seu planejamento inicial, verificar o que está dando certo e o que precisa ser revisto nos processos de funcionamento do negócio. Lembre-se: metas e objetivos podem mudar ou vir a adaptar-se a novas realidades, mas é fundamental que estejam sempre claros para você e sua equipe.</p>
                         <p className="conteudo">Vamos repassar alguns pontos de atenção. Caneta na mão e prepare o checklist:</p>
                         <ol>
@@ -286,7 +286,7 @@ export class Texto10 extends Component{
                         <p className="subtitle"> </p>
                     </div>
                     <div className="corpo_texto">
-                        <img src="https://i.imgur.com/dNeIb4g.jpg" className="foto_texto" alt=""/>
+                        <img src="https://i.imgur.com/DcUJa4a.jpg" className="foto_texto" alt=""/>
                         <p className="conteudo">Agora que você já tirou a ideia do negócio dos seus sonhos do papel, está na hora de pensar em quais serão seus próximos passos para alcançar os primeiros resultados. E foi pensando neste estágio inicial que reunimos algumas dicas valiosas para você. Vamos lá?</p>
                         <h2>1&ordm;	Suas contas pessoais não devem se misturar com as da empresa</h2>
                         <p className="conteudo">Nos primeiros dias da sua empresa, se preocupe em ter uma conta bancária só para ela e evite misturar seus gastos pessoais com os do negócio. Inicialmente pode parecer mais fácil e simples, pois as suas vendas e recebimentos terão um volume pequeno, mas com o crescimento do fluxo de caixa você terá um grande problema.</p>
@@ -317,6 +317,7 @@ export class Texto11 extends Component{
                         <p className="subtitle"> </p>
                     </div>
                     <div className="corpo_texto">
+                        <img src="https://i.imgur.com/l2etNOm.jpg" className="foto_texto" alt=""/>
                         <p className="conteudo">Conheça a história de Cássia Marques, empreendedora da cidade de Birigui, interior de São Paulo, que abriu uma loja de lingerie e já expandiu tanto no tamanho da loja como na diversidade de produtos. Ela morou em São Paulo por alguns anos e quando voltou para sua cidade natal percebeu que não conseguia encontrar produtos de qualidade e com a beleza que desejava. </p>
                         <p className="conteudo">“Percebi que não existia uma loja que tivesse produtos de qualidade e que as pessoas iam para Araçatuba para comprar. E, até esses produtos não me agradavam”, conta a empreendedora. Confira a entrevista completa e veja tudo que ela aprendeu desde a abertura da <a href="https://www.facebook.com/eladi.birigui/">Éladi.</a></p>
                         <h2>Como você teve a ideia de abrir esta loja?</h2>
