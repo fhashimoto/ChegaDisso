@@ -76,7 +76,7 @@ p.subtitle{
     .titulo_texto h1{
         font-size: 1.15em;
     }
-    p.subtitle, p.conteudo, .corpo_texto ul{
+    p.subtitle, p.conteudo, .corpo_texto ul, li{
         font-size: .75em;
     }
 
