@@ -34,6 +34,22 @@
     height: 192px;
 }
 
+/* Botão ver mais */
+#verMais{
+    background-color: transparent;
+    width: 150px;
+    position: relative;
+    left: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bolder;
+    font-size: 18px;
+    color: #234562;
+}
+
 @media only screen and (max-width: 500px) {
 
     .container.resume{
