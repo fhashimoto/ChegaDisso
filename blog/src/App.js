@@ -18,7 +18,6 @@ import { Sobre } from "./Content/sobre";
 import Categorias from "./Content/categorias";
 
 class App extends Component {
-
   render() {
     return (
       <BrowserRouter>

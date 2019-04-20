@@ -4,6 +4,9 @@ import Form from '../form';
 import Footer from '../footer';
 
 export class Sobre extends Component{
+    componentDidMount(){
+        window.scroll(0, 300);
+    }
     render(){
         return(
             <div>

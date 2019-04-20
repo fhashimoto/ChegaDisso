@@ -16,12 +16,10 @@ class Form extends Component {
     }
     
     componentDidMount() {
-      console.log("DidMount");
       this.getUserData();
     }
   
     componentDidUpdate(prevProps, prevState) {
-      console.log("DidUpdate");
       // Verificar o acrécimos de dados
       if (prevState !== this.state) {
         this.writeUserData()
@@ -32,11 +30,9 @@ class Form extends Component {
       Firebase.database()
         .ref("/")
         .set(this.state);
-      console.log("DATA SAVED");
     };
   
     getUserData = () => {
-      console.log("getUserData");
       let ref = Firebase.database().ref("/");
       ref.on("value", snapshot => {
         const state = snapshot.val();
@@ -54,11 +50,9 @@ class Form extends Component {
       this.refs.nome.value = "";
       this.refs.email.value = "";
       this.refs.uid.value = "";
-      console.log('Reset');
     }
   
     salvandoJson(uid, nome, email, tipo, data, ip){
-      console.log("Salvando JSON");
       // para encontrar alguma inscricao antiga
       if (uid && nome && email && tipo) {
         const { inscritos } = this.state;
@@ -81,7 +75,6 @@ class Form extends Component {
     }
   
     handleSubmit = event => {
-      console.log("HandleSubmit");
       event.preventDefault();
       let tipo = 0,
           nome = 0,
@@ -127,7 +120,6 @@ class Form extends Component {
       // Implementar a limpeza do campo de radio
     };
     render(){
-      console.log("Renderizado");
       return(
         <form onSubmit={this.handleSubmit} className="subscribe">
           <input type="hidden" ref="uid" />
