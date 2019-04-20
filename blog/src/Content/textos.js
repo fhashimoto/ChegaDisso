@@ -5,7 +5,7 @@ import Footer from '../footer';
 
 export class Texto1 extends Component{
     componentDidMount(){
-        window.scroll(0, 300);
+        window.scroll(0, 220);
     }
     render(){
         return(
@@ -35,7 +35,7 @@ export class Texto1 extends Component{
 
 export class Texto2 extends Component{
     componentDidMount(){
-        window.scroll(0, 300);
+        window.scroll(0, 220);
     }
     render(){
         return(
@@ -65,7 +65,7 @@ export class Texto2 extends Component{
 
 export class Texto3 extends Component{
     componentDidMount(){
-        window.scroll(0, 300);
+        window.scroll(0, 220);
     }
     render(){
         return(
@@ -101,7 +101,7 @@ export class Texto3 extends Component{
 
 export class Texto4 extends Component{
     componentDidMount(){
-        window.scroll(0, 300);
+        window.scroll(0, 220);
     }
     render(){
         return(
@@ -134,7 +134,7 @@ export class Texto4 extends Component{
 
 export class Texto5 extends Component{
     componentDidMount(){
-        window.scroll(0, 300);
+        window.scroll(0, 220);
     }
     render(){
         return(
@@ -163,7 +163,7 @@ export class Texto5 extends Component{
 
 export class Texto6 extends Component{
     componentDidMount(){
-        window.scroll(0, 300);
+        window.scroll(0, 220);
     }
     render(){
         return(
@@ -199,7 +199,7 @@ export class Texto6 extends Component{
 
 export class Texto7 extends Component{
     componentDidMount(){
-        window.scroll(0, 300);
+        window.scroll(0, 220);
     }
     render(){
         return(
@@ -236,7 +236,7 @@ export class Texto7 extends Component{
 
 export class Texto8 extends Component{
     componentDidMount(){
-        window.scroll(0, 300);
+        window.scroll(0, 220);
     }
     render(){
         return(
@@ -267,7 +267,7 @@ export class Texto8 extends Component{
 
 export class Texto9 extends Component{
     componentDidMount(){
-        window.scroll(0, 300);
+        window.scroll(0, 220);
     }
     render(){
         return(
@@ -302,7 +302,7 @@ export class Texto9 extends Component{
 
 export class Texto10 extends Component{
     componentDidMount(){
-        window.scroll(0, 300);
+        window.scroll(0, 220);
     }
     render(){
         return(
@@ -336,7 +336,7 @@ export class Texto10 extends Component{
 
 export class Texto11 extends Component{
     componentDidMount(){
-        window.scroll(0, 300);
+        window.scroll(0, 220);
     }
     render(){
         return(
