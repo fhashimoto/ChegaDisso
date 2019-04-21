@@ -71,7 +71,7 @@ export class Resumo4 extends Component{
                     </div>
                 </div>
                 <Link to="/cat" className="linkColor">
-                    <button id="verMais">ver mais<img src="https://i.imgur.com/ZZmr979.png"/></button>
+                    <button id="verMais">ver mais<img src="https://i.imgur.com/ZZmr979.png" alt="Botão de ver mais"/></button>
                 </Link>
             </div>
         )

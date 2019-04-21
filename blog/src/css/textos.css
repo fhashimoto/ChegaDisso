@@ -67,6 +67,21 @@ p.subtitle{
     max-height: 150px;
 }
 
+/* Foto Eladi */
+#imagemCatia{
+    display: flex;
+    justify-content: center;
+    margin: 0 25%;
+}
+#imagemCatia img{
+    width: 100%;
+    height: auto;
+    max-height:300px;
+}
+figure figcaption{
+    text-align: center;
+}
+
 /* Listas */
 .corpo_texto li{
     margin-bottom: 10px;
@@ -92,5 +107,8 @@ p.subtitle{
     .memeDino{
         max-width: 70px;
         max-height: 70px;
+    }
+    #imagemCatia img{
+        max-height:150px;
     }
 }
