@@ -57,6 +57,12 @@ p.subtitle{
     height: 100%;
 }
 
+.video-wrap{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 /* Meme Dino */
 .memeDino{
     display: block;

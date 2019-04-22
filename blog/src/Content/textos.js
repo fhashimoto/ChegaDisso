@@ -52,9 +52,9 @@ export class Texto2 extends Component{
                         <img src="https://i.imgur.com/XAdjluv.jpg" className="foto_texto" alt=""/>
                         <p className="conteudo">Conheça a história da fundadora do Coffee Lab, cafeteria premiada e escola de baristas</p>
                         <p className="conteudo">Conheça agora a história da Isabela Raposeiras, fundadora do Coffee Lab - uma cafeteria e escola de baristas premiada e reconhecida internacionalmente. Aqui você encontra algumas dicas que ela deixou sobre autoconhecimento, inovação e disciplina.</p>
-                        <div className="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/tHae9aRaFhw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="video_1"></iframe></div>
+                        <div className="video-wrap"><div className="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/tHae9aRaFhw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="video_1"></iframe></div></div>
                         <p className="conteudo">Já Anaíra Costa, dona da Lavanderia Water Clean, conta um pouco da história da empresa e fala sobre sua atuação dentro dela até chegar à presidência e ainda declara "São as mulheres que fazem o seu lugar".</p>
-                        <div className="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/ssrkR_1BFwU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="video_2"></iframe></div>
+                        <div className="video-wrap"><div className="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/ssrkR_1BFwU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="video_2"></iframe></div></div>
                     </div>
                 </div>
                 <Footer/>
