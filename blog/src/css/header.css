@@ -47,6 +47,19 @@
   width: 42px;
 }
 
+/* Menu toggle */
+.menuToggle{
+  display: none;
+  position: absolute;
+  top: 50px;
+  background-color: white;
+}
+.menuToggle ul{
+}
+#categorias{
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 500px) {
   .cabecalho{
     height: 40px;
