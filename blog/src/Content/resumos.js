@@ -119,3 +119,23 @@ export class Resumo7 extends Component{
         )
     }
 }
+
+export class Resumo10 extends Component{
+    render(){
+        return(
+            <div>
+                <div className="container resume">
+                    <Link to="/4_dicas">
+                    <img src="https://i.imgur.com/DcUJa4a.jpg" className="foto" alt=""/>
+                    </Link>
+                    <div className="resume1">
+                        <Link to="/4_dicas" className="linkColor">
+                        <h1>4 dicas para começar bem o seu negócio</h1>
+                        </Link>
+                        <p>Agora que você já tirou a ideia do negócio dos seus sonhos do papel, está na hora de pensar em quais serão seus próximos passos para alcançar os primeiros resultados.</p>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
