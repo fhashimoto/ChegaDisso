@@ -99,3 +99,23 @@ export class Resumo6 extends Component{
         )
     }
 }
+
+export class Resumo7 extends Component{
+    render(){
+        return(
+            <div>
+                <div className="container resume">
+                    <Link to="/tempo_deus">
+                    <img src="https://i.imgur.com/3OXHrBg.jpg" className="foto" alt=""/>
+                    </Link>
+                    <div className="resume1">
+                        <Link to="/tempo_deus" className="linkColor">
+                        <h1>Tempo não é dinheiro, tempo é Deus</h1>
+                        </Link>
+                        <p>Sem o tempo não conseguimos fazer tudo como desejamos. Então, nada melhor do que uma ferramenta que te ajude com as tarefas empresariais para que você consiga ter tempo para pensar na estratégia do negócio.</p>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}

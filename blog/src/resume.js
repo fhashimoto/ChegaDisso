@@ -11,8 +11,8 @@ class Resume extends Component {
         return(
             <div className="corpo_resumo">
                 <Resumo3/>
-                <Resumo11/>
-                <Resumo10/>
+                {/* <Resumo11/>
+                <Resumo10/> */}
                 <Resumo4/>
                 <Resumo7/>
                 <Resumo6/>
