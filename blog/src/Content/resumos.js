@@ -89,6 +89,31 @@ export class Resumo4 extends Component{
     }
 }
 
+export class Resumo5
+ extends Component{
+    render(){
+        return(
+            <div>
+                <div className="container resume">
+                    <Link to="/lema_e">
+                    <img src="https://i.imgur.com/SGnZlvd.jpg" className="foto" alt=""/>
+                    </Link>
+                    <div className="resume1">
+                        <span id="categoria-texto">Na mídia</span>
+                        <Link to="/lema_e" className="linkColor">
+                        <h1>Confiança dos pequenos negócios na economia do país apresenta queda</h1>
+                        </Link>
+                        <Share/>
+                        <p>O índice de otimismo dos empreendedores quanto aos rumos da economia brasileira caiu cerca de 10 pontos percentuais nos primeiros três meses de 2019, mas a confiança dos donos de micro e pequenos negócios continua em alta.</p>
+                        
+                    </div>
+                </div>
+               
+            </div>
+        )
+    }
+}
+
 // {/* <Link to="/cat" className="linkColor">
 //     <button id="verMais">ver mais<img src="https://i.imgur.com/ZZmr979.png" alt="Botão de ver mais"/></button>
 // </Link> */}
@@ -131,6 +156,52 @@ export class Resumo7 extends Component{
                         </Link>
                         <Share/>
                         <p>Sem o tempo não conseguimos fazer tudo como desejamos. Então, nada melhor do que uma ferramenta que te ajude com as tarefas empresariais para que você consiga ter tempo para pensar na estratégia do negócio.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
+
+export class Resumo8 extends Component{
+    render(){
+        return(
+            <div>
+                <div className="container resume">
+                    <Link to="/tempo_deus">
+                    <img src="https://i.imgur.com/yWmV05q.jpg" className="foto" alt=""/>
+                    </Link>
+                    <div className="resume1">
+                        <span id="categoria-texto">Aprenda</span>
+                        <Link to="/tempo_deus" className="linkColor">
+                        <h1>Conheça a máquina de cartão ideal para o seu negócio</h1>
+                        </Link>
+                        <Share/>
+                        <p>Já parou para pensar em quantas vezes você usa seu cartão de crédito ou débito por dia, ou por mês? Se sua resposta para essa pergunta for: muitas! Você está dentro de uma pesquisa da Associação Brasileira das Empresas de Cartões de Crédito e Serviço (ABECS), que mostra que, em 2018, os cartões brasileiros movimentaram a quantia de R$450 bilhões de reais no crédito e de R$265,4 bilhões no débito</p>
+                        
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
+
+export class Resumo9 extends Component{
+    render(){
+        return(
+            <div>
+                <div className="container resume">
+                    <Link to="/tempo_deus">
+                    <img src="https://i.imgur.com/qZzFANw.jpg" className="foto" alt=""/>
+                    </Link>
+                    <div className="resume1">
+                        <span id="categoria-texto">Aprenda</span>
+                        <Link to="/tempo_deus" className="linkColor">
+                        <h1>Abri minha empresa, e agora?</h1>
+                        </Link>
+                        <Share/>
+                        <p>O primeiro passo já foi dado: a sua empresa está no mercado e os primeiros clientes estão surgindo. Agora vale repassar o que estava no seu planejamento inicial, verificar o que está dando certo e o que precisa ser revisto nos processos de funcionamento do negócio.</p>
                         
                     </div>
                 </div>
