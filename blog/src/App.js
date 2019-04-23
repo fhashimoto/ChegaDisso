@@ -20,6 +20,7 @@ import {Texto1, Texto2, Texto3, Texto4, Texto5, Texto6, Texto7, Texto8, Texto9, 
 import { Sobre } from "./Content/sobre";
 import Categorias from "./Content/categorias";
 import Equipe from './Content/equipe';
+import { NaMidia, Aprenda, Inspire } from "./Content/submenu";
 
 class App extends Component {
   render() {
@@ -43,6 +44,9 @@ class App extends Component {
             <Route path="/about" component={Sobre}/>
             <Route path="/cat" component={Categorias}/>
             <Route path="/equipe" component={Equipe}/>
+            <Route path="/na_midia" component={NaMidia}/>
+            <Route path="/aprenda" component={Aprenda}/>
+            <Route path="/inspire" component={Inspire}/>
             <Route component={Error}/>
           </Switch>
         </div>

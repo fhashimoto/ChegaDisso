@@ -7,12 +7,15 @@ class Menu extends Component {
             <div className="menuToggle">
                 <div className='menu-home-container'>
                     <div className="menu-cat">
-                        <ul><b>Na midia</b></ul>
-
-                        <ul><b>Aprenda</b></ul>
-                    
-                        <ul><b>Inspire-se</b></ul>
-
+                        <Link to="/na_midia" className="linkColor">
+                            <ul><b>Na midia</b></ul>
+                        </Link>
+                        <Link to="/aprenda" className="linkColor">
+                            <ul><b>Aprenda</b></ul>
+                        </Link>
+                        <Link to="inspire" className="linkColor">
+                            <ul><b>Inspire-se</b></ul>
+                        </Link>
                         <Link to="/cat" className="linkColor">
                         <ul><b>Veja todas as categorias</b></ul>
                         </Link>
