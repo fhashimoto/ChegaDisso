@@ -14,8 +14,9 @@ export class Resumo1 extends Component {
                     <Link to="/chega_disso" className="linkColor">
                     <h1>Chega disso que impede a sua empresa de crescer</h1>
                     </Link>
-                    <p>Chega de post it para organizar as contas que você pagou no final do mês, de achismos, de esperar o consumidor bater na sua porta, de torcer por mudanças no cenário econômico do país.</p>
                     <Share/>
+                    <p>Chega de post it para organizar as contas que você pagou no final do mês, de achismos, de esperar o consumidor bater na sua porta, de torcer por mudanças no cenário econômico do país.</p>
+                    
                 </div>
             </div>
         )
@@ -34,8 +35,9 @@ export class Resumo2 extends Component{
                     <Link to="/mulher_empreendedora" className="linkColor">
                     <h1>Mulher empreendedora, inspire-se!</h1>
                     </Link>
-                    <p>Muitas mulheres escutam a história da Luiza Trajano, que transformou a loja fundada pelos tios em um dos maiores varejistas do país, o Magazine Luiza, ou da Sônia Hess, fundadora da Dudalina e pensam que é algo muito distante do que ela mesma pode alcançar. Mas não é.</p>
                     <Share/>
+                    <p>Muitas mulheres escutam a história da Luiza Trajano, que transformou a loja fundada pelos tios em um dos maiores varejistas do país, o Magazine Luiza, ou da Sônia Hess, fundadora da Dudalina e pensam que é algo muito distante do que ela mesma pode alcançar. Mas não é.</p>
+                    
                 </div>
             </div>
         )
@@ -54,8 +56,9 @@ export class Resumo3 extends Component{
                     <Link to="/declaracao_mei" className="linkColor">
                     <h1>Declaração Anual do MEI</h1>
                     </Link>
-                    <p>Se você é Microempreendedor Individual (MEI), ou seja, fatura até R$ 81 mil por ano, você tem compromisso anual com a Declaração Anual do Simples Nacional (DASN) e deixar para a última hora a entrega pode ser um grande problema. Entenda porquê.</p>
                     <Share/>
+                    <p>Se você é Microempreendedor Individual (MEI), ou seja, fatura até R$ 81 mil por ano, você tem compromisso anual com a Declaração Anual do Simples Nacional (DASN) e deixar para a última hora a entrega pode ser um grande problema. Entenda porquê.</p>
+                    
                 </div>
             </div>
         )
@@ -75,8 +78,9 @@ export class Resumo4 extends Component{
                         <Link to="/lema_e" className="linkColor">
                         <h1>Quando o lema é: não empurra!</h1>
                         </Link>
-                        <p>Quem nunca comprou uma roupa porque a lojista ficou falando que você estava linda(o) e acabou se arrependendo da compra? Hoje não há espaço para esse tipo de comércio. O valor da experiência é rei, seja nas lojas física ou e-commerce, seja no Brasil ou na Europa.</p>
                         <Share/>
+                        <p>Quem nunca comprou uma roupa porque a lojista ficou falando que você estava linda(o) e acabou se arrependendo da compra? Hoje não há espaço para esse tipo de comércio. O valor da experiência é rei, seja nas lojas física ou e-commerce, seja no Brasil ou na Europa.</p>
+                        
                     </div>
                 </div>
                
@@ -102,8 +106,9 @@ export class Resumo6 extends Component{
                         <Link to="/teste_gestao" className="linkColor">
                         <h1>Teste sua gestão agora</h1>
                         </Link>
-                        <p>O Chega Disso traz algumas questões que todo empreendimento precisa conseguir responder para ter sucesso na sua gestão.</p>
                         <Share/>
+                        <p>O Chega Disso traz algumas questões que todo empreendimento precisa conseguir responder para ter sucesso na sua gestão.</p>
+                        
                     </div>
                 </div>
             </div>
@@ -124,8 +129,9 @@ export class Resumo7 extends Component{
                         <Link to="/tempo_deus" className="linkColor">
                         <h1>Tempo não é dinheiro, tempo é Deus</h1>
                         </Link>
-                        <p>Sem o tempo não conseguimos fazer tudo como desejamos. Então, nada melhor do que uma ferramenta que te ajude com as tarefas empresariais para que você consiga ter tempo para pensar na estratégia do negócio.</p>
                         <Share/>
+                        <p>Sem o tempo não conseguimos fazer tudo como desejamos. Então, nada melhor do que uma ferramenta que te ajude com as tarefas empresariais para que você consiga ter tempo para pensar na estratégia do negócio.</p>
+                        
                     </div>
                 </div>
             </div>
@@ -146,8 +152,9 @@ export class Resumo10 extends Component{
                         <Link to="/4_dicas" className="linkColor">
                         <h1>4 dicas para começar bem o seu negócio</h1>
                         </Link>
-                        <p>Agora que você já tirou a ideia do negócio dos seus sonhos do papel, está na hora de pensar em quais serão seus próximos passos para alcançar os primeiros resultados.</p>
                         <Share/>
+                        <p>Agora que você já tirou a ideia do negócio dos seus sonhos do papel, está na hora de pensar em quais serão seus próximos passos para alcançar os primeiros resultados.</p>
+                        
                     </div>
                 </div>
             </div>
@@ -161,15 +168,16 @@ export class Resumo11 extends Component{
             <div>
                 <div className="container resume">
                     <Link to="/gestao_fundamental">
-                    <img src="https://i.imgur.com/l2etNOm.jpg" className="foto" alt=""/>
+                    <img src="https://i.imgur.com/nzfofnB.png" className="foto" alt=""/>
                     </Link>
                     <div className="resume1">
                         <span id="categoria-texto">Inspire-se</span>
                         <Link to="/gestao_fundamental" className="linkColor">
                         <h1>Birigui ou São Paulo: gestão é fundamental para o negócio, não importa a cidade</h1>
                         </Link>
-                        <p>Conheça a história de Cássia Marques, empreendedora da cidade de Birigui, interior de São Paulo, que abriu uma loja de lingerie e já expandiu tanto no tamanho da loja como na diversidade de produtos.</p>
                         <Share/>
+                        <p>Conheça a história de Cássia Marques, empreendedora da cidade de Birigui, interior de São Paulo, que abriu uma loja de lingerie e já expandiu tanto no tamanho da loja como na diversidade de produtos.</p>
+    
                     </div>
                 </div>
             </div>
