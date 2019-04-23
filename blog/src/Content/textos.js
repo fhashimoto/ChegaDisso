@@ -366,10 +366,7 @@ export class Texto11 extends Component{
                         <p className="conteudo">Conheça a história de Cássia Marques, empreendedora da cidade de Birigui, interior de São Paulo, que abriu uma loja de lingerie e já expandiu tanto no tamanho da loja como na diversidade de produtos. Ela morou em São Paulo por alguns anos e quando voltou para sua cidade natal percebeu que não conseguia encontrar produtos de qualidade e com a beleza que desejava. </p>
                         <p className="conteudo">“Percebi que não existia uma loja que tivesse produtos de qualidade e que as pessoas iam para Araçatuba para comprar. E, até esses produtos não me agradavam”, conta a empreendedora. Confira a entrevista completa e veja tudo que ela aprendeu desde a abertura da <a href="https://www.facebook.com/eladi.birigui/">Éladi.</a></p>
                         <figure>
-                            <div id="imagemCatia">
-                                <img src="https://i.imgur.com/3WBSF86.jpg" alt="Cássia Marques"/>
-                                <img src="https://i.imgur.com/6054pnF.jpg" alt="Seu empreendimento, a loja Éladi"/>
-                            </div>
+                            <img src="https://i.imgur.com/nzfofnB.png" id="Cassia" alt=""></img>
                             <figcaption>Cássia Marques e seu empreendimento - a loja &#201;ladi</figcaption>
                         </figure>
                         <h2>Como você teve a ideia de abrir esta loja?</h2>

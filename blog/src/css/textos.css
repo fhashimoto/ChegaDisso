@@ -74,23 +74,27 @@ p.subtitle{
 }
 
 /* Foto Eladi */
-#imagemCatia{
-    display: flex;
-    justify-content: center;
-    margin: 0 25%;
+#Cassia{
+    display: block;
+    margin: 10px auto 20px;
+    width: 50%;
+    height: 50%;
+    max-width: 1024px;
+    max-height: 539px;
 }
-#imagemCatia img{
-    width: 100%;
-    height: auto;
-    max-height:300px;
-}
-figure figcaption{
+figcaption{
     text-align: center;
 }
 
 /* Listas */
 .corpo_texto li{
     margin-bottom: 10px;
+}
+
+/* Categoria dos textos */
+#categoria-texto{
+    color: gray;
+    font-style: italic;
 }
 
 @media only screen and (max-width: 500px) {
