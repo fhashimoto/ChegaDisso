@@ -70,9 +70,9 @@ export class Resumo4 extends Component{
                         <p>Quem nunca comprou uma roupa porque a lojista ficou falando que você estava linda(o) e acabou se arrependendo da compra? Hoje não há espaço para esse tipo de comércio. O valor da experiência é rei, seja nas lojas física ou e-commerce, seja no Brasil ou na Europa.</p>
                     </div>
                 </div>
-                <Link to="/cat" className="linkColor">
+                {/* <Link to="/cat" className="linkColor">
                     <button id="verMais">ver mais<img src="https://i.imgur.com/ZZmr979.png" alt="Botão de ver mais"/></button>
-                </Link>
+                </Link> */}
             </div>
         )
     }

@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Header from '../header';
 import Form from '../form';
 import Footer from '../footer';
+import Share from './share-button';
 
 export class Texto1 extends Component{
     componentDidMount(){
@@ -12,6 +13,7 @@ export class Texto1 extends Component{
             <div>
                 <Header/>
                 <Form/>
+                <Share/>
                 <div className="container_texto">
                     <div className="titulo_texto">
                         {/* <div id="quadrado_texto"></div> */}

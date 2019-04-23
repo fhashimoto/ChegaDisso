@@ -51,11 +51,12 @@
 .menuToggle{
   display: none;
   position: absolute;
+  width: 75%;
   top: 50px;
   background-color: white;
+  z-index: 2;
 }
-.menuToggle ul{
-}
+
 #categorias{
   cursor: pointer;
 }

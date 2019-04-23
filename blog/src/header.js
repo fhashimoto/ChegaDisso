@@ -8,6 +8,7 @@ class Header extends Component {
         $("#categorias").unbind().click( function() {
             console.log("clicado");
             $(".menuToggle").slideToggle();
+            $("#imgPrinc").toggleClass("sombra");
         })
     }
 
