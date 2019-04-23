@@ -6,9 +6,10 @@ import $ from 'jquery';
 
 class Header extends Component {
     handleClick(){
-        $("#categorias").unbind().click( function() {
+        $("#linkMenu").unbind().click( function() {
             console.log("clicado");
             $(".menuToggle").slideToggle();
+            $('.link').toggleClass('fundo');
             $("#imgPrinc").toggleClass("sombra");
         })
     }
@@ -16,16 +17,13 @@ class Header extends Component {
     render(){
     return(
         <div>
-            <img src="https://i.imgur.com/UpgzdD0.jpg" id="imgPrinc" alt=""/>
+            <img src="https://i.imgur.com/zmKLeSD.jpg" id="imgPrinc" alt=""/>
             <div className="cabecalho">
                 <Link to="/" className="linkColor">
-                    <div id="titulo">cheg&#64; disso</div>
+                    <div id="titulo">blog cheg&#64; disso</div>
                 </Link>
                 <div className="link">    
-                
-                
-                        <div id="categorias" onClick={this.handleClick}>Menu<img src="https://i.imgur.com/4ljGZ2c.png" alt=""/></div>
-                    {/* </Link> */}
+                    <div id="linkMenu" onClick={this.handleClick}>Menu<img src="https://i.imgur.com/4ljGZ2c.png" alt=""/></div>
                 </div>
                 <div className="icones">
                     <a href="https://www.facebook.com/blog.chegadisso/"><img src="https://i.imgur.com/riJqSMK.png" className="icon" alt=""/></a>
