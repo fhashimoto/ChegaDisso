@@ -11,6 +11,7 @@ import './css/agradecimento.css';
 import './css/categorias.css';
 import './css/share.css';
 import './css/equipe.css';
+import './css/menu.css';
 
 import Home from './home';
 import Agradecimento from './Agradecimento';

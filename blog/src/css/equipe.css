@@ -3,6 +3,9 @@
     justify-content: space-evenly;
     margin: 10px 10% 40px;
 }
-.titulo{
-    font-weight: bold;
+ul{
+    list-style-type: none;
+}
+ul li{
+    margin-top: 10px;
 }

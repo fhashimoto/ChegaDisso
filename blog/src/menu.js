@@ -1,30 +1,26 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 
 class Menu extends Component {
     render(){
         return(
-            <div className="menu">
-                <div className="menu1">
-                    <p className="menutitulo">Categorias</p>
-                    <p>Na mídia</p>
-                    <p>Aprenda</p>
-                    <p>Inspire-se</p>
-                </div>
-                <div className="menu2">
-                    <p className="menutitulo">Arquivo</p>
-                    <p>Janeiro</p>
-                    <p>Fevereiro</p>
-                    <p>Março</p>
-                    <p>Abril</p>
-                    <p>Maio</p>
-                    <p>Junho</p>
-                    <p>Julho</p>
-                    <p>Agosto</p>
-                    <p>Setembro</p>
-                    <p>Outubro</p>
-                    <p>Novembro</p>
-                    <p>Dezembro</p>
-                </div>
+            <div className="menuToggle">
+
+                    <ul><b>Na midia</b></ul>
+
+                    <ul><b>Aprenda</b></ul>
+                
+                    <ul><b>Inspire-se</b></ul>
+
+                <Link to="/cat" className="linkColor">
+                    <ul><b>Veja todas as categorias</b></ul>
+                </Link>
+
+                <Link to="/equipe" className='linkColor'>
+                    <ul><b>Equipe</b></ul>
+                </Link>
+
+                    <ul><b>Contato</b></ul>
             </div>
         )
     }
