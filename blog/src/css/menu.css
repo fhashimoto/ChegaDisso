@@ -2,12 +2,24 @@
 .menuToggle{
     display: none;
     position: absolute;
-    width: 75%;
+    width: 90%;
     top: 50px;
     background-color: white;
     z-index: 2;
+    font-size: 1.2em;
 }
   
 #categorias{
     cursor: pointer;
+}
+
+.menu-home-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    border: solid black 2px;    
+}
+
+.menu-cat{
+    text-align: center;
 }

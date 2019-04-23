@@ -23,10 +23,7 @@ class Header extends Component {
                 </Link>
                 <div className="link">    
                 
-                {/* Adicionar o sobre no MENU
-                 <Link to="/about" className="linkColor">
-                        <div id="sobre">Sobre</div>
-                    </Link>                 */}
+                
                         <div id="categorias" onClick={this.handleClick}>Menu<img src="https://i.imgur.com/4ljGZ2c.png" alt=""/></div>
                     {/* </Link> */}
                 </div>
