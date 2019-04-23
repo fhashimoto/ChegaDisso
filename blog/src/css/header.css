@@ -4,6 +4,7 @@
   z-index: -1;
   width: 100%;
   height: auto;
+  max-height: 500px;
 }
 /* Barra transparente do cabecalho */
 .cabecalho{

@@ -1,0 +1,8 @@
+.equipe{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 10% 40px;
+}
+.titulo{
+    font-weight: bold;
+}

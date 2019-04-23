@@ -10,6 +10,7 @@ import './css/textos.css';
 import './css/agradecimento.css';
 import './css/categorias.css';
 import './css/share.css';
+import './css/equipe.css';
 
 import Home from './home';
 import Agradecimento from './Agradecimento';
@@ -17,6 +18,7 @@ import Error from './error';
 import {Texto1, Texto2, Texto3, Texto4, Texto5, Texto6, Texto7, Texto8, Texto9, Texto10, Texto11} from './Content/textos';
 import { Sobre } from "./Content/sobre";
 import Categorias from "./Content/categorias";
+import Equipe from './Content/equipe';
 
 class App extends Component {
   render() {
@@ -39,6 +41,7 @@ class App extends Component {
             <Route path="/gestao_fundamental" component={Texto11}/>
             <Route path="/about" component={Sobre}/>
             <Route path="/cat" component={Categorias}/>
+            <Route path="/equipe" component={Equipe}/>
             <Route component={Error}/>
           </Switch>
         </div>
