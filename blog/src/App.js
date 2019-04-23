@@ -9,6 +9,7 @@ import './css/resume.css';
 import './css/textos.css';
 import './css/agradecimento.css';
 import './css/categorias.css';
+import './css/share.css';
 
 import Home from './home';
 import Agradecimento from './Agradecimento';

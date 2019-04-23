@@ -76,9 +76,9 @@ export class Resumo4 extends Component{
     }
 }
 
-{/* <Link to="/cat" className="linkColor">
-    <button id="verMais">ver mais<img src="https://i.imgur.com/ZZmr979.png" alt="Botão de ver mais"/></button>
-</Link> */}
+// {/* <Link to="/cat" className="linkColor">
+//     <button id="verMais">ver mais<img src="https://i.imgur.com/ZZmr979.png" alt="Botão de ver mais"/></button>
+// </Link> */}
 
 export class Resumo6 extends Component{
     render(){
