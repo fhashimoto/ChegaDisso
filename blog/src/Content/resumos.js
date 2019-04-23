@@ -139,3 +139,23 @@ export class Resumo10 extends Component{
         )
     }
 }
+
+export class Resumo11 extends Component{
+    render(){
+        return(
+            <div>
+                <div className="container resume">
+                    <Link to="/gestao_fundamental">
+                    <img src="https://i.imgur.com/l2etNOm.jpg" className="foto" alt=""/>
+                    </Link>
+                    <div className="resume1">
+                        <Link to="/gestao_fundamental" className="linkColor">
+                        <h1>Birigui ou São Paulo: gestão é fundamental para o negócio, não importa a cidade</h1>
+                        </Link>
+                        <p>Conheça a história de Cássia Marques, empreendedora da cidade de Birigui, interior de São Paulo, que abriu uma loja de lingerie e já expandiu tanto no tamanho da loja como na diversidade de produtos.</p>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
