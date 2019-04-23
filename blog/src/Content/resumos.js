@@ -70,11 +70,32 @@ export class Resumo4 extends Component{
                         <p>Quem nunca comprou uma roupa porque a lojista ficou falando que você estava linda(o) e acabou se arrependendo da compra? Hoje não há espaço para esse tipo de comércio. O valor da experiência é rei, seja nas lojas física ou e-commerce, seja no Brasil ou na Europa.</p>
                     </div>
                 </div>
-                {/* <Link to="/cat" className="linkColor">
-                    <button id="verMais">ver mais<img src="https://i.imgur.com/ZZmr979.png" alt="Botão de ver mais"/></button>
-                </Link> */}
+               
             </div>
         )
     }
 }
 
+{/* <Link to="/cat" className="linkColor">
+    <button id="verMais">ver mais<img src="https://i.imgur.com/ZZmr979.png" alt="Botão de ver mais"/></button>
+</Link> */}
+
+export class Resumo6 extends Component{
+    render(){
+        return(
+            <div>
+                <div className="container resume">
+                    <Link to="/teste_gestao">
+                    <img src="https://i.imgur.com/q09Pz8E.jpg" className="foto" alt=""/>
+                    </Link>
+                    <div className="resume1">
+                        <Link to="/teste_gestao" className="linkColor">
+                        <h1>Teste sua gestão agora</h1>
+                        </Link>
+                        <p>O Chega Disso traz algumas questões que todo empreendimento precisa conseguir responder para ter sucesso na sua gestão.</p>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
