@@ -15,7 +15,7 @@ export class Texto1 extends Component{
                 <Form/>
                 <div className="container_texto">
                     <div className="titulo_texto">
-                        {/* <div id="quadrado_texto"></div> */}
+                        <span id="categoria-texto">Aprenda</span>
                         <h1>Chega disso que impede a sua empresa de crescer</h1>
                         <p className="subtitle">Conheça o blog que vai compartilhar todas as dicas para melhorar a gestão da sua PME</p>
                         <Share/>
@@ -46,7 +46,7 @@ export class Texto2 extends Component{
                 <Form/>
                 <div className="container_texto">
                     <div className="titulo_texto">
-                        {/* <div id="quadrado_texto"></div> */}
+                        <span id="categoria-texto">Inspire-se</span>
                         <h1>Mulher empreendedora, inspire-se!</h1>
                         <p className="subtitle">Conheça a história da fundadora do Coffee Lab, cafeteria premiada e escola de baristas</p>
                         <Share/>
@@ -77,7 +77,7 @@ export class Texto3 extends Component{
                 <Form/>
                 <div className="container_texto">
                     <div className="titulo_texto">
-                        {/* <div id="quadrado_texto"></div> */}
+                        <span id="categoria-texto">Aprenda</span>
                         <h1>Declaração Anual do MEI: o que você precisa saber</h1>
                         <p className="subtitle">Lembre-se que você tem até o dia 31 de maio para entregar</p>
                         <Share/>
@@ -114,7 +114,7 @@ export class Texto4 extends Component{
                 <Form/>
                 <div className="container_texto">
                     <div className="titulo_texto">
-                        {/* <div id="quadrado_texto"></div> */}
+                        <span id="categoria-texto">Na mídia</span>
                         <h1>Quando o lema é: não empurra!</h1>
                         <p className="subtitle">Experiência do cliente é a chave de sucesso para qualquer empresa que quer prosperar nos próximos anos</p>
                         <Share/>
@@ -148,7 +148,7 @@ export class Texto5 extends Component{
                 <Form/>
                 <div className="container_texto">
                     <div className="titulo_texto">
-                        {/* <div id="quadrado_texto"></div> */}
+                        <span id="categoria-texto">Na mídia</span>
                         <h1>Confiança dos pequenos negócios na economia do país apresenta queda</h1>
                         <p className="subtitle"> </p>
                         <Share/>
@@ -178,7 +178,7 @@ export class Texto6 extends Component{
                 <Form/>
                 <div className="container_texto">
                     <div className="titulo_texto">
-                        {/* <div id="quadrado_texto"></div> */}
+                        <span id="categoria-texto">Aprenda</span>
                         <h1>Teste sua gestão agora</h1>
                         <p className="subtitle">6 perguntas que você precisa ter a resposta</p>
                         <Share/>
@@ -215,7 +215,7 @@ export class Texto7 extends Component{
                 <Form/>
                 <div className="container_texto">
                     <div className="titulo_texto">
-                        {/* <div id="quadrado_texto"></div> */}
+                        <span id="categoria-texto">Aprenda</span>
                         <h1>Tempo não é dinheiro, tempo é Deus</h1>
                         <p className="subtitle"> </p>
                         <Share/>
@@ -253,7 +253,7 @@ export class Texto8 extends Component{
                 <Form/>
                 <div className="container_texto">
                     <div className="titulo_texto">
-                        {/* <div id="quadrado_texto"></div> */}
+                        <span id="categoria-texto">Aprenda</span>
                         <h1>Conheça a máquina de cartão ideal para o seu negócio</h1>
                         <p className="subtitle"> </p>
                         <Share/>
@@ -285,7 +285,7 @@ export class Texto9 extends Component{
                 <Form/>
                 <div className="container_texto">
                     <div className="titulo_texto">
-                        {/* <div id="quadrado_texto"></div> */}
+                        <span id="categoria-texto">Aprenda</span>
                         <h1>Abri minha empresa, e agora?</h1>
                         <p className="subtitle">Confira dicas para quem abriu um negócio recentemente</p>
                         <Share/>
@@ -321,7 +321,7 @@ export class Texto10 extends Component{
                 <Form />
                 <div className="container_texto">
                     <div className="titulo_texto">
-                        {/* <div id="quadrado_texto"></div> */}
+                        <span id="categoria-texto">Aprenda</span>
                         <h1>4 dicas para começar bem o seu negócio</h1>
                         <p className="subtitle"> </p>
                         <Share/>
@@ -356,7 +356,7 @@ export class Texto11 extends Component{
                 <Form/>
                 <div className="container_texto">
                     <div className="titulo_texto">
-                        {/* <div id="quadrado_texto"></div> */}
+                        <span id="categoria-texto">Inspire-se</span>
                         <h1>Birigui ou São Paulo: gestão é fundamental para o negócio, não importa a cidade</h1>
                         <p className="subtitle"> </p>
                         <Share/>
