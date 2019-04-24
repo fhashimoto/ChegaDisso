@@ -7,10 +7,7 @@ import $ from 'jquery';
 class Header extends Component {
     handleClick(){
         $("#linkMenu").unbind().click( function() {
-            console.log("clicado");
             $(".menuToggle").slideToggle();
-            $('.link').toggleClass('fundo');
-            $("#imgPrinc").toggleClass("sombra");
         })
     }
 
@@ -22,8 +19,15 @@ class Header extends Component {
                 <Link to="/" className="linkColor">
                     <div id="titulo">blog cheg&#64; disso</div>
                 </Link>
-                <div className="link">    
-                    <div id="linkMenu" onClick={this.handleClick}>Menu<img src="https://i.imgur.com/4ljGZ2c.png" alt=""/></div>
+                <div className="link">   
+                    <div id="linkMenu" onClick={this.handleClick}>Categorias</div>
+                   
+                    <Link to="/about" className="linkColor">
+                        <span>Sobre</span>
+                    </Link>  
+                    <Link to="/equipe" className='linkColor'>
+                        <span>Equipe</span>
+                    </Link>
                 </div>
                 <div className="icones">
                     <a href="https://www.facebook.com/blog.chegadisso/"><img src="https://i.imgur.com/riJqSMK.png" className="icon" alt=""/></a>

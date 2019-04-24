@@ -8,20 +8,20 @@ class Menu extends Component {
                 <div className='menu-home-container'>
                     <div className="menu-cat">
                         <Link to="/na_midia" className="linkColor">
-                            <ul><b>Na midia</b></ul>
+                            <span>Na midia</span>
                         </Link>
                         <Link to="/aprenda" className="linkColor">
-                            <ul><b>Aprenda</b></ul>
+                            <span>Aprenda</span>
                         </Link>
                         <Link to="inspire" className="linkColor">
-                            <ul><b>Inspire-se</b></ul>
+                            <span>Inspire-se</span>
                         </Link>
-                        <Link to="/cat" className="linkColor">
-                        <ul><b>Veja todas as categorias</b></ul>
-                        </Link>
+                        {/* <Link to="/cat" className="linkColor">
+                            <b>Veja todas as categorias</b>
+                        </Link> */}
                     </div>
 
-                    <Link to="/about" className="linkColor">
+                    {/* <Link to="/about" className="linkColor">
                         <ul id="sobre"><b>Sobre</b></ul>
                     </Link>                       
 
@@ -29,7 +29,7 @@ class Menu extends Component {
                         <ul><b>Equipe</b></ul>
                     </Link>
 
-                        <ul><b>Contato</b></ul>
+                        <ul><b>Contato</b></ul> */}
                 </div>
             </div>
         )

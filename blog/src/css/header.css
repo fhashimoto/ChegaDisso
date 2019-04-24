@@ -30,7 +30,7 @@
 .link{
   display: flex;
   align-items: center;
-  font-weight: 800;
+  font-weight: bold;
   text-transform: uppercase;
 }
 #sobre{

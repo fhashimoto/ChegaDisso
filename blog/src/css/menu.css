@@ -2,19 +2,21 @@
 .menuToggle{
     display: none;
     position: absolute;
-    width: 90%;
+    width: 15%;
     top: 50px;
+    left: 40%;
     background-color: #FFDDA5;
     z-index: 2;
     font-size: 1.2em;
 }
-.link.fundo{
-    padding: 0 10px;
-    background-color: #FFDDA5;
+
+.link span{
+    margin-right: 10px;
 }
   
 #linkMenu{
     cursor: pointer;
+    margin-right: 10px;
 }
 
 .menu-home-container{
@@ -25,4 +27,8 @@
 
 .menu-cat{
     text-align: center;
+}
+.menu-cat a{
+    margin: 10px 2px;
+    font-weight: bold;
 }
