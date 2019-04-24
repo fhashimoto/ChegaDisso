@@ -4,6 +4,7 @@
   z-index: -1;
   width: 70%;
   height: auto;
+  margin-bottom: 20px;
 }
 /* Barra transparente do cabecalho */
 .cabecalho{
@@ -63,6 +64,7 @@
     width: 35px;
   }
   #imgPrinc{
-    min-height: 220px;
+    width: 60%;
+    min-height: 150px;
   }
 }

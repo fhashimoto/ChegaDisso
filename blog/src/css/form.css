@@ -55,12 +55,19 @@ form p{
 @media only screen and (max-width: 500px) {
     form{
         margin: 7.5px 0 7.5px 5px;
-        width: 30%;
+        width: 40%;
         top: 40px;
+    }
+    form h1{
+        font-size: 1em;
+        margin: 5px 0 5px 0;
+    }
+    form p{
+        font-size: .7em;
+        margin: 0 0 5px 0;
     }
 
     .campoform{
-        width: 100px;
         height: 10px;
         font-size: .7em;
     }
@@ -72,7 +79,7 @@ form p{
     #tipo .campo{
         display: flex;
         align-items: center;
-        font-size: .75em;
+        font-size: .6em;
     }
     #tipo input{
         width: 10px;
