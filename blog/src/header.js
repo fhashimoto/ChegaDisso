@@ -35,7 +35,7 @@ class Header extends Component {
                 </div>
                 <Menu/>
             </div>
-            <img src="https://i.imgur.com/cPQ9fvv.jpg" id="imgPrinc" alt=""/>
+            <img src="https://i.imgur.com/IZ9I5Sb.jpg" id="imgPrinc" alt=""/>
         </div>
     );
     }
