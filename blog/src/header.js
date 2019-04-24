@@ -16,7 +16,7 @@ class Header extends Component {
         <div>
             <div className="cabecalho">
                 <Link to="/" className="linkColor">
-                    <div id="titulo">blog cheg&#64; disso</div>
+                    <div id="titulo"><span>blog</span> cheg&#64; disso</div>
                 </Link>
                 <div className="link">   
                     <div id="linkMenu" onClick={this.handleClick}>Categorias</div>
