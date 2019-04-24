@@ -1,15 +1,14 @@
 .corpo_resumo{
-    position: relative;
-    display: block;
-    width: 80%;
-    margin-bottom: 50px;
-    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
   
 .container.resume {
-    display: flex;
+    display: inline-block;
+    width: 365px;
     margin-bottom: 30px;
-    padding-left: 15%;
+    margin: 20px 20px;
 }
   
 .resume1 {
@@ -56,7 +55,7 @@
 @media only screen and (max-width: 500px) {
 
     .container.resume{
-        display: inline-block;
+        width: 200px;
     }
 
     .resume1 h1{
