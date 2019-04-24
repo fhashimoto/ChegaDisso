@@ -16,6 +16,7 @@ export class Resumo1 extends Component {
                     </Link>
                     
                     <p>Chega de post it para organizar as contas que você pagou no final do mês, de achismos, de esperar o consumidor bater na sua porta, de torcer por mudanças no cenário econômico do país.</p>
+                    <p className="saibamais">Saiba Mais</p>
                     <Share/>
                 </div>
             </div>
@@ -37,6 +38,7 @@ export class Resumo2 extends Component{
                     </Link>
                     
                     <p>Muitas mulheres escutam a história da Luiza Trajano, que transformou a loja fundada pelos tios em um dos maiores varejistas do país, o Magazine Luiza, ou da Sônia Hess, fundadora da Dudalina e pensam que é algo muito distante do que ela mesma pode alcançar. Mas não é.</p>
+                    <p className="saibamais">Saiba Mais</p>
                     <Share/>
                 </div>
             </div>
@@ -58,6 +60,7 @@ export class Resumo3 extends Component{
                     </Link>
                     
                     <p>Se você é Microempreendedor Individual (MEI), ou seja, fatura até R$ 81 mil por ano, você tem compromisso anual com a Declaração Anual do Simples Nacional (DASN) e deixar para a última hora a entrega pode ser um grande problema. Entenda porquê.</p>
+                    <p className="saibamais">Saiba Mais</p>
                     <Share/>
                 </div>
             </div>
@@ -80,6 +83,7 @@ export class Resumo4 extends Component{
                         </Link>
                         
                         <p>Quem nunca comprou uma roupa porque a lojista ficou falando que você estava linda(o) e acabou se arrependendo da compra? Hoje não há espaço para esse tipo de comércio. O valor da experiência é rei, seja nas lojas física ou e-commerce, seja no Brasil ou na Europa.</p>
+                        <p className="saibamais">Saiba Mais</p>
                         <Share/>
                     </div>
                 </div>
@@ -105,6 +109,7 @@ export class Resumo5
                         </Link>
                         
                         <p>O índice de otimismo dos empreendedores quanto aos rumos da economia brasileira caiu cerca de 10 pontos percentuais nos primeiros três meses de 2019, mas a confiança dos donos de micro e pequenos negócios continua em alta.</p>
+                        <p className="saibamais">Saiba Mais</p>
                         <Share/>
                     </div>
                 </div>
@@ -133,6 +138,7 @@ export class Resumo6 extends Component{
                         </Link>
                         
                         <p>O Chega Disso traz algumas questões que todo empreendimento precisa conseguir responder para ter sucesso na sua gestão.</p>
+                        <p className="saibamais">Saiba Mais</p>
                         <Share/>
                     </div>
                 </div>
@@ -156,6 +162,7 @@ export class Resumo7 extends Component{
                         </Link>
                         
                         <p>Sem o tempo não conseguimos fazer tudo como desejamos. Então, nada melhor do que uma ferramenta que te ajude com as tarefas empresariais para que você consiga ter tempo para pensar na estratégia do negócio.</p>
+                        <p className="saibamais">Saiba Mais</p>
                         <Share/>
                     </div>
                 </div>
@@ -179,6 +186,7 @@ export class Resumo8 extends Component{
                         </Link>
                         
                         <p>Já parou para pensar em quantas vezes você usa seu cartão de crédito ou débito por dia, ou por mês? Se sua resposta para essa pergunta for: muitas! Você está dentro de uma pesquisa da Associação Brasileira das Empresas de Cartões de Crédito e Serviço (ABECS), que mostra que, em 2018, os cartões brasileiros movimentaram a quantia de R$450 bilhões de reais no crédito e de R$265,4 bilhões no débito</p>
+                        <p className="saibamais">Saiba Mais</p>
                         <Share/>
                     </div>
                 </div>
@@ -202,6 +210,7 @@ export class Resumo9 extends Component{
                         </Link>
                         
                         <p>O primeiro passo já foi dado: a sua empresa está no mercado e os primeiros clientes estão surgindo. Agora vale repassar o que estava no seu planejamento inicial, verificar o que está dando certo e o que precisa ser revisto nos processos de funcionamento do negócio.</p>
+                        <p className="saibamais">Saiba Mais</p>
                         <Share/>
                     </div>
                 </div>
@@ -225,6 +234,7 @@ export class Resumo10 extends Component{
                         </Link>
                         
                         <p>Agora que você já tirou a ideia do negócio dos seus sonhos do papel, está na hora de pensar em quais serão seus próximos passos para alcançar os primeiros resultados.</p>
+                        <p className="saibamais">Saiba Mais</p>
                         <Share/>
                     </div>
                 </div>
@@ -249,6 +259,7 @@ export class Resumo11 extends Component{
                         </Link>
                         
                         <p>Conheça a história de Cássia Marques, empreendedora da cidade de Birigui, interior de São Paulo, que abriu uma loja de lingerie e já expandiu tanto no tamanho da loja como na diversidade de produtos.</p>
+                        <p className="saibamais">Saiba Mais</p>
                         <Share/>
                     </div>
                 </div>

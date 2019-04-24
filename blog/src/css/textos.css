@@ -93,7 +93,9 @@ figcaption{
 
 /* Categoria dos textos */
 #categoria-texto{
-    color: gray;
+    font-family: Open Sans;
+    color: #222222;
+    font-size: 18px;
     font-style: italic;
 }
 

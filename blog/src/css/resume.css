@@ -19,12 +19,25 @@
 }
   
 .resume1 h1{
-    font-size: 25px;
+    font-family: Pt serif;
+    font-size: 32px;
+    color: #222222;
     margin-bottom: 5px;
     margin-top: 0;
 }
 .resume1 p{
+    font-family: Open Sans;
+    color: #222222;
+    font-size: 20px;
     margin-top: 0;
+    margin-bottom: 7px;
+}
+
+.resume1 .saibamais{
+    font-family: Open sans;
+    font-size: 22px;
+    margin: 0;
+    color:#fea13e;
 }
 
 /* Foto */

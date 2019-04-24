@@ -5,7 +5,7 @@ class Share extends Component {
         let url = window.location.href;
         return(
             // Utilizando a API do Add to Any, para os botões de compartilhamento
-            <div className="share">
+            <div className="share"><p>Compartilhe</p>
                 <a className="facebook" target="_blank" href={`https://www.facebook.com/sharer/sharer.php?u=${url}`} rel="noopener noreferrer">
                     <img src="https://i.imgur.com/SgHnbfV.png" alt="compartilhe no facebook"></img>
                 </a>
