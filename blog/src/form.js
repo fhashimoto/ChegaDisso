@@ -122,6 +122,8 @@ class Form extends Component {
     render(){
       return(
         <form onSubmit={this.handleSubmit} className="subscribe">
+          <h1>Entre na lista VIP!</h1>
+          <p>Receba atualizações, dicas e artigos!</p>
           <input type="hidden" ref="uid" />
           <input
             type="text"
@@ -147,7 +149,7 @@ class Form extends Component {
           </div>
           {/* <Link to="/obrigado"> */}
             <button type="submit" className="botao">
-              Inscreva-se
+              Receba agora
             </button>
           {/* </Link> */}
         </form>

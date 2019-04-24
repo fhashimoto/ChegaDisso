@@ -1,33 +1,51 @@
 form{
-    padding: 15px 0 15px 10px;
-    width: 200px;
+    margin: 15px 0 15px 10px;
+    width: 30%;
     position: absolute;
-    top: 55px;
-    right: 4.5%;
-    margin-right: 4.5%;
+    top: 50px;
+    right: 0;
     background-color: rgb(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+form.subscribe{
+    margin: 0;
+}
+form h1{
+    font-size: 1.5em;
+    color: #FFA231;
+    margin: 0 0 5px 0;
+}
+form p{
+    color: #234562;
+    font-size: 1.1em;
+    margin: 0 0 5px 0;
 }
 
 #tipo{
     display: flex;
+    justify-content: center;
     margin-bottom: 5px;
 }
 
 .campoform{
-    margin: 2px;
+    width: 80%;
+    height: 18px;
+    margin: 2px 2px 4px 2px;
     padding: 7px;
 }
   
 .botao{
     color: black;
     font-weight: bold;
-    background-color: #ffcc00;
+    background-color: #FFA231;
     border: none;
     padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     border-radius: 4px;
+    width: 80%;
 }
 
 .botao:hover{
@@ -36,11 +54,9 @@ form{
 
 @media only screen and (max-width: 500px) {
     form{
-        padding: 7.5px 0 7.5px 5px;
-        width: 140px;
-        top: 42px;
-        right: 1.5%;
-        margin-right: 1.5%;
+        margin: 7.5px 0 7.5px 5px;
+        width: 30%;
+        top: 40px;
     }
 
     .campoform{

@@ -14,7 +14,6 @@ class Header extends Component {
     render(){
     return(
         <div>
-            <img src="https://i.imgur.com/zmKLeSD.jpg" id="imgPrinc" alt=""/>
             <div className="cabecalho">
                 <Link to="/" className="linkColor">
                     <div id="titulo">blog cheg&#64; disso</div>
@@ -36,6 +35,7 @@ class Header extends Component {
                 </div>
                 <Menu/>
             </div>
+            <img src="https://i.imgur.com/cPQ9fvv.jpg" id="imgPrinc" alt=""/>
         </div>
     );
     }
