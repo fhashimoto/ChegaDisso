@@ -2,9 +2,10 @@
 #imgPrinc{
   position: relative;
   z-index: -1;
-  width: 70%;
+  width: 100%;
   height: auto;
   margin-bottom: 20px;
+  max-height: 400px;
 }
 /* Barra transparente do cabecalho */
 .cabecalho{
@@ -12,7 +13,7 @@
   color: #234562;
   width: 100%;
   height: 50px;
-  position: relative;
+  position: absolute;
   top: 0;
   display: flex;
   justify-content: space-around;
@@ -69,7 +70,6 @@
     width: 35px;
   }
   #imgPrinc{
-    width: 60%;
     min-height: 150px;
   }
 }
