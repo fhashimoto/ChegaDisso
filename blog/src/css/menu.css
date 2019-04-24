@@ -5,18 +5,19 @@
     width: 15%;
     top: 50px;
     left: 40%;
-    background-color: #FFA231;
+    background-color: #f8b152;
     z-index: 2;
     font-size: 1.2em;
+    padding-bottom: 5px;
 }
 
 .link span{
-    margin-right: 10px;
+    margin-right: 15px;
 }
   
 #linkMenu{
     cursor: pointer;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .menu-home-container{
@@ -27,6 +28,7 @@
 
 .menu-cat{
     text-align: center;
+    padding: 5px;
 }
 .menu-cat a{
     margin: 10px 2px;
