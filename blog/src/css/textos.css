@@ -13,8 +13,20 @@
 }
   
 .titulo_texto h1{
+    font-family: Pt serif;
+    color: #222222;
     margin-bottom: 0;
-    font-size: 2em;
+    font-size: 32px;
+}
+.corpo_texto h2{
+    font-family: pt serif;
+    font-size: 25px;
+}
+
+.conteudo{
+    font-family: open sans;
+    font-size: 20px;
+    color: #222222;
 }
 
 p.subtitle{
