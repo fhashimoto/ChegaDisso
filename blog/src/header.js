@@ -6,9 +6,7 @@ import $ from 'jquery';
 
 class Header extends Component {
     handleClick(){
-        $("#linkMenu").unbind().click( function() {
-            $(".menuToggle").slideToggle();
-        })
+        $(".menuToggle").slideToggle();
     }
 
     render(){
