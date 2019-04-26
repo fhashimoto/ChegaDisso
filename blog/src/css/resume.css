@@ -35,7 +35,9 @@
 
 .resume1 .saibamais{
     font-family: Open sans;
-    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 18px;
     margin: 0;
     color:#fea13e;
 }
@@ -68,7 +70,11 @@
 @media only screen and (max-width: 500px) {
 
     .container.resume{
-        width: 200px;
+        width: 280px;
+    }
+    .container.resume .foto{
+        width: 100%;
+        height: auto;
     }
 
     .resume1 h1{
