@@ -4,13 +4,14 @@ import {Resumo3,
         Resumo6,
         Resumo7,
         Resumo10,
-        Resumo11} from './Content/resumos';
+        Resumo11,
+        Resumo12} from './Content/resumos';
 
 class Resume extends Component {
     render(){
         return(
             <div className="corpo_resumo">
-                <Resumo3/>
+                <Resumo12/>
                 <Resumo11/>
                 <Resumo10/>
                 <Resumo4/>

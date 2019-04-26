@@ -296,7 +296,7 @@ export class Resumo12 extends Component{
             <div>
                 <div className="container resume">
                     <Link to="/stefano_milo">
-                    <img src="https://i.imgur.com/8xsXXit.jpg" className="foto" alt=""/>
+                    <img src="https://i.imgur.com/ohh32qr.jpg" className="foto" alt=""/>
                     </Link>
                     <div className="resume1">
                         <span id="categoria-texto">Inspire-se</span>
