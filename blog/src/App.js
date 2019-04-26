@@ -16,7 +16,7 @@ import './css/menu.css';
 import Home from './home';
 import Agradecimento from './Agradecimento';
 import Error from './error';
-import {Texto1, Texto2, Texto3, Texto4, Texto5, Texto6, Texto7, Texto8, Texto9, Texto10, Texto11} from './Content/textos';
+import {Texto1, Texto2, Texto3, Texto4, Texto5, Texto6, Texto7, Texto8, Texto9, Texto10, Texto11, Texto12} from './Content/textos';
 import { Sobre } from "./Content/sobre";
 import Categorias from "./Content/categorias";
 import Equipe from './Content/equipe';
@@ -41,6 +41,7 @@ class App extends Component {
             <Route path="/e_agora" component={Texto9}/>
             <Route path="/4_dicas" component={Texto10}/>
             <Route path="/gestao_fundamental" component={Texto11}/>
+            <Route path="/stefano_milo" component={Texto12}/>
             <Route path="/about" component={Sobre}/>
             <Route path="/cat" component={Categorias}/>
             <Route path="/equipe" component={Equipe}/>

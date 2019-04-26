@@ -54,6 +54,9 @@ class Categorias extends Component{
                         <Link to="/gestao_fundamental" className="linkColor">
                             <li>Birigui ou São Paulo: gestão é fundamental para o negócio, não importa a cidade</li>
                         </Link>
+                        <Link to="/stefano_milo" className="linkColor">
+                            <li>Stefano Milo, co-fundador da BeeTech, traz dicas para novos empreendedores</li>
+                        </Link>
                     </ul>
                 </div>
                 <Footer/>

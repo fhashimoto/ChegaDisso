@@ -289,3 +289,30 @@ export class Resumo11 extends Component{
         )
     }
 }
+
+export class Resumo12 extends Component{
+    render(){
+        return(
+            <div>
+                <div className="container resume">
+                    <Link to="/stefano_milo">
+                    <img src="https://i.imgur.com/8xsXXit.jpg" className="foto" alt=""/>
+                    </Link>
+                    <div className="resume1">
+                        <span id="categoria-texto">Inspire-se</span>
+                        
+                        <Link to="/stefano_milo" className="linkColor">
+                        <h1>Stefano Milo, co-fundador da BeeTech, traz dicas para novos empreendedores</h1>
+                        </Link>
+                        
+                        <p>O blog Chega disso conta com mais uma entrevista exclusiva, agora com uma startup. Stefano Milo, co-fundador da BeeTech, explica como foi a criação de uma fintech brasileira que tem como principal missão facilitar o acesso a serviços financeiros globais. </p>
+                        <Link to="/stefano_milo" className="linkColor">
+                            <p className="saibamais">Saiba Mais</p>
+                        </Link>
+                        <Share/>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
