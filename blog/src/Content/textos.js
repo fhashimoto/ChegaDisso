@@ -387,3 +387,39 @@ export class Texto11 extends Component{
         )
     }
 }
+
+export class Texto12 extends Component{
+    render(){
+        return(
+            <div>
+                <Header/>
+                <Form/>
+                <div className="container_texto">
+                    <div className="titulo_texto">
+                        <span id="categoria-texto">Inspire-se</span>
+                        <h1>Stefano Milo, co-fundador da BeeTech, traz dicas para novos empreendedores</h1>
+                        <p className="subtitle"> </p>
+                        <Share/>
+                    </div>
+                    <div className="corpo_texto">
+                        <img src="https://i.imgur.com/8xsXXit.jpg" className="foto_texto" alt=""/>
+                        <p className="conteudo">O blog Chega disso conta com mais uma entrevista exclusiva, agora com uma startup. Stefano Milo, co-fundador da BeeTech, explica como foi a criação de uma fintech brasileira que tem como principal missão facilitar o acesso a serviços financeiros globais. Ele também fala dos aprendizados e desafios ao longo dos anos e deixa uma dica para todos que querem começar a empreender. Confira!</p>
+                        <h2>Como surgiu a ideia de criar a sua startup?</h2>
+                        <p className="conteudo">A ideia de criar uma empresa que oferecesse esse serviço de transferências internacionais de dinheiro veio do fundador, Fernando Pavani. Ele me contou a ideia e eu fiquei de criar todo o viés e a teoria do produto, que é justamente esse de possibilitar uma vida global para qualquer brasileiro, por meio de investimentos, educação, viagens e serviços fora do país.</p>
+                        <h2>Quais foram as primeiras dificuldades de gestão do negócio?</h2>
+                        <p className="conteudo">A parte mais difícil quando se está começando é a divisão de papéis: no que sou bom? O que cada um vai fazer? Também foi complicado buscar parceiros corretos e ser levado a sério pelo sistema bancário, já que éramos uma correspondente cambial e posteriormente uma fintech. Além disso, por ser muito pequeno, não tínhamos poder de barganha com parceiros.</p>
+                        <p className="conteudo">O legal disso tudo é a cabeça de sobrevivência e provar um conceito. No fim, os brasileiros precisam e querem um serviço como o nosso, ninguém aguenta mais pagar as taxas altas para o banco e ser mal atendido. As pessoas querem mais!</p>
+                        <h2>Quais foram as alterações na gestão mais marcantes para você?</h2>
+                        <p className="conteudo">Consigo citar três que me marcaram: quando internalizamos os times de produto e tecnologia e, assim, viramos efetivamente uma empresa de tecnologia financeira; quando recebemos o nosso primeiro investimento do Marcelo Maisonnave, co-fundador da XP Investimentos; por fim, ao integramos com um banco, absorvendo o processo e sendo responsáveis por tudo.</p>
+                        <h2>O que você não faria, se pudesse voltar no tempo?</h2>
+                        <p className="conteudo">A partir de um ponto, quando se começa a crescer, é necessário ter pessoas intermediárias e táticas. Não dá para ter os fundadores cuidando de tudo, por isso é necessário descentralizar. Acredito que demoramos para entender o papel de um time forte e um erro foi não ter investido em pessoas antes. Além disso, tentamos abraçar o mundo, lançando várias frentes de negócio. Acredito que deveríamos ter focado em uma única frente, pois com muitas é mais demorado para fazer a manutenção e se perde a prioridade.</p>
+                        <h2>Você usa algum software que indicaria para outros empreendedores?</h2>
+                        <p className="conteudo">Uso o Azana e o Trello. Eles ajudam muito por permitir uma profundidade nas hora de descrever tarefas e colaboram com o andamento dos projetos internos. Mas não deixo de usar as notas, acaba sendo mais simples em alguns momentos.</p>
+                        <h2>Qual a sua mensagem para as pessoas que querem empreender no país?</h2>
+                        <p className="conteudo">Eu daria um conselho: foque nas pessoas certas! Gaste tempo com pessoas. Tudo é consequência de um bom trabalho em equipe.</p>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
