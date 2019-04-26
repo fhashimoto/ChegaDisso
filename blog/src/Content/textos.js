@@ -402,7 +402,10 @@ export class Texto12 extends Component{
                         <Share/>
                     </div>
                     <div className="corpo_texto">
-                        <img src="https://i.imgur.com/8xsXXit.jpg" className="foto_texto" alt=""/>
+                        <figure>
+                            <img src="https://i.imgur.com/8xsXXit.jpg" className="foto_texto" alt=""/>
+                            <figcaption>Da esq. para dir.: Stefano Milo e Fernando Pavani</figcaption>
+                        </figure>
                         <p className="conteudo">O blog Chega disso conta com mais uma entrevista exclusiva, agora com uma startup. Stefano Milo, co-fundador da BeeTech, explica como foi a criação de uma fintech brasileira que tem como principal missão facilitar o acesso a serviços financeiros globais. Ele também fala dos aprendizados e desafios ao longo dos anos e deixa uma dica para todos que querem começar a empreender. Confira!</p>
                         <h2>Como surgiu a ideia de criar a sua startup?</h2>
                         <p className="conteudo">A ideia de criar uma empresa que oferecesse esse serviço de transferências internacionais de dinheiro veio do fundador, Fernando Pavani. Ele me contou a ideia e eu fiquei de criar todo o viés e a teoria do produto, que é justamente esse de possibilitar uma vida global para qualquer brasileiro, por meio de investimentos, educação, viagens e serviços fora do país.</p>
